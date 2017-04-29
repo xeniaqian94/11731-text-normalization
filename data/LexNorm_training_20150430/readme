@@ -1,0 +1,106 @@
+By using the data (train_data_20150408.json), You agree to use the data following Twitter and shared task guideline.
+
+Note the data may contain coarse/offensive languages.
+
+To run the evaluation script:
+$ python evaluation.py --pred demo.pred1.json --oracle demo.oracle.json 
+Evaluating demo.pred1.json
+precision: 0.3333
+recall:    0.25
+F1:        0.2857
+
+If you have any questions or correction suggestions for the dataset, please post it on the google forum https://groups.google.com/forum/#!members/lexical-normalisation-for-english-tweets
+
+===========================
+Version log
+
+train_data_20150430.json
+-fixed errors relative to train_data_20150413.json
+Format: Index original_OOV original_norm revised_OOV revised_norm
+1108 hw how hw homework
+1130 Testi testing Testi testi
+1134 legt length legt left
+1169 Simeone someone Simeone simeone
+1190 comeback come back comeback comeback
+1224 feela feel a feela feels
+1226 RUNNN running RUNNN run
+1238 ty ty ty thank you
+1261 sup super sup what's up
+1264 prolly prolly prolly probably
+1301 ur you're ur your
+1307 no no no not
+1314 Silverman silver man Silverman silverman
+1350 Everdeen ever deen Everdeen everdeen
+1398 niggas niggas niggas niggers
+1463 FN fucking FN fn
+1501 B be B b
+1539 ty ty ty thank you
+1539 ty ty ty thank you
+256 n and n in
+256 ma madam ma my
+256 dam  dam damn
+2603 Lls laughint like shit Lls laughing like shit
+3430 TY ty TY thank you
+3430 4 4 4 for
+6815 YOUR your YOUR you're
+6815 YOUR your YOUR you're
+6905 B becomes B b
+
+
+train_data_20150413.json
+-fixed inconsistency/annotation/formation errors relative to train_data_20150410.json
+Format: Index original_OOV original_norm revised_OOV revised_norm
+1076 checkbox check box checkbox checkbox
+1136 doesnot does not doesnot doesn't
+1191 unnie friend unnie unnie
+1223 bae babe bae bae
+1223 bae babe bae bae
+1227 bae babe bae bae
+1413 x kiss x x
+1444 Kearny keamy Kearny kearny
+1463 Ifop lfop Ifop ifop
+1464 Dragonball dragonball show Dragonball dragonball
+23 shot shot shot 
+2507 Mbf my best friend Mbf must be following
+256 dam dam dam 
+2572 bfs best friend bfs best friends
+264 1st first 1st 1st
+2885 WHT what the hell WHT what
+304 could've could've could've could have
+3447 shawty fine ass woman shawty shawty
+3532 BFFs best friend forever BFFs best friends forever
+3684 guna getting guna gonna
+3793 GTFO get the fuck off GTFO get the fuck out
+3804 ehmm hmm ehmm ehmm
+3812 uso using uso uso
+3813 slippin slipping slippin sleeping
+3942 yay yey yay yay
+3975 order order order 
+4143 Flyest fly est Flyest flyest
+4215 rah raha rah rah
+4467 hahaha haha hahaha hahaha
+4529 ache ache ache 
+4540 tots thots tots tots
+4554 OHGOSH oh god OHGOSH oh gosh
+4598 hahahahaha hahahaha hahahahaha hahahahaha
+4602 shawdy woman shawdy shawdy
+4643 dawg dog dawg dawg
+4714 should've should've should've should have
+4802 il will il i'll
+4817 unis university unis universities
+641 yey yeah yey yey
+6834 Ik like Ik i know
+6905 comes comes comes 
+6925 usernames user names usernames usernames
+6962 bffs best friends bffs best friends forever
+873 Kim's ki'm's Kim's kim's
+
+train_data_20150410.json
+-fixed conversion errors in train_data_20150408.json, e.g., all tokens involving numbers are not normalised and many-to-one normalisations are ignored
+-incorporated corrections (mum -> mom, dafuq -> the fuck) from Dmitry Supranovich
+
+train_data_20150408.json
+-fixed spread sheet specific symbols conversion errors
+
+train_data.json
+-initial release
