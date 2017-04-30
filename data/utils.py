@@ -10,16 +10,16 @@ import argparse
 
 import re
 from collections import defaultdict
+import numpy as np
+
 
 try:
     import ujson as json
 except ImportError:
     import json
 
-feature_num = 0
 
-
-def create_feature(file_input):
+def create_feature_and_CANDlabel(file_input,norm_dict,canonical_dict):
     output = open(file_input.split(".")[0] + "_CAND", "w")
 
     pred_list = json.load(open(file_input))
@@ -28,18 +28,35 @@ def create_feature(file_input):
         input_tokens = pred["input"]
         output_tokens = pred["output"]
         sent_length = len(input_tokens)
-        for i in range(sent_length):
+        for token_ind in range(sent_length):
+            this_token=input_tokens[token_ind].lower()
+            output_token=output_tokens[token_ind].lower()
             tag = False
             alphanumeric = True
-            if input_tokens[i].lower() != output_tokens[i].lower():
+            in_normalized_lexicon=False
+            in_canonical_dict=False
+            if this_token!= output_token:
                 tag = True
-            if not re.match('^[a-zA-Z0-9]+[a-zA-Z0-9\']*$', input_tokens[i]):
+            if not re.match('^[a-zA-Z0-9]+[a-zA-Z0-9\']*$', this_token):
                 alphanumeric = False
-            features = [str(alphanumeric), ]
-            feature_string = input_tokens[i]
-            for i in range(feature_num):
-                feature_string += " " + features[i]
-            feature_string += " " + " " + ("CAND" if tag else "NOT_CAND")
+            if len([key for key in norm_dict.keys() if this_token in key.split()])>0:
+                in_normalized_lexicon=True
+            if this_token in canonical_dict:
+                in_canonical_dict=True
+            word_length=len(this_token)
+            num_vowels = 0
+            vowels = set("aeiou")
+            for letter in this_token:
+                if letter in vowels:
+                    num_vowels += 1
+
+            edit_distance_within2=(np.asarray([])<2).any()
+
+            features = [str(alphanumeric),str(in_normalized_lexicon),str(in_canonical_dict),str(word_length),str(num_vowels)]
+            feature_string = this_token
+            for feat_ind in range(len(features)):
+                feature_string += " " + features[feat_ind]
+            feature_string += " " + ("CAND" if tag else "NOT_CAND")
             output.write(feature_string + "\n")
         output.write("\n")
     output.close()
@@ -58,10 +75,10 @@ def training_data_normalization_lexicon(training_file):
         sent_length = len(input_tokens)
         i = 0
         while i < sent_length:
-            if input_tokens[i].lower() != output_tokens[i].lower() and re.match('^[a-zA-Z0-9]+[a-zA-Z0-9\']*$',
-                                                                                input_tokens[i]):
+            if input_tokens[i].lower() != output_tokens[i].lower() and (re.match('^[a-zA-Z0-9]+[a-zA-Z0-9\']*$',
+                                                                                input_tokens[i]) is not None):
                 low = i
-                high = i
+                high = i+1
                 while high < sent_length:
                     if input_tokens[high].lower() != output_tokens[high].lower() and re.match(
                             '^[a-zA-Z0-9]+[a-zA-Z0-9\']*$',
@@ -71,20 +88,36 @@ def training_data_normalization_lexicon(training_file):
                         break
                 i = max(high, low + 1)
                 if (i-low)>1:
-                    print " ".join(input_tokens[low:i])+" "+output_tokens[low]
-                    print pred
+                    # print input_tokens[oldi-1].lower()
+                    # print output_tokens[oldi-1].lower()
+                    # print (input_tokens[oldi-1].lower() != output_tokens[oldi-1].lower() and (re.match('^[a-zA-Z0-9]+[a-zA-Z0-9\']*$',
+                    #                                                             input_tokens[oldi-1]) is not None))
+                    print " ".join(input_tokens[low:i])+" -> "+output_tokens[low]
+                    # print pred
 
-                norm_dict[" ".join(input_tokens[low:i])][output_tokens[low]] += 1
-
-
+                norm_dict[" ".join(input_tokens[low:i]).lower()][output_tokens[low].lower()] += 1
 
             else:
                 i = i + 1
+    print "Many to one mapping"
     norm_file = open(training_file.split(".")[0] + "_dict", "w")
     for input in norm_dict.keys():
         for output in norm_dict[input].keys():
             norm_file.write(input + "\t" + output + "\t" + str(norm_dict[input][output]) + "\n")
     norm_file.close()
+    return norm_dict
+
+
+
+def read_incremental_dict(file, norm_dict):
+
+    print "Before "+file+" Original norm dict size "+str(len(norm_dict.keys()))
+    f = open(file,"r")
+    for line in f.readlines():
+        norm_dict[line.split("\t")[0]][line.split("\t")[1]]=int(line.split("\t")[2])
+    f.close()
+    print "After "+file+" New norm dict size " + str(len(norm_dict.keys()))
+    return norm_dict
 
 
 def main():
@@ -92,8 +125,11 @@ def main():
     parser.add_argument("--file", default="train_data_multiline.json")
     args = parser.parse_args()
 
-    # evaluate(args.file)
-    training_data_normalization_lexicon(args.file)
+    norm_dict=training_data_normalization_lexicon(args.file)
+    norm_dict=read_incremental_dict("../resource/Han2011_clean.txt",norm_dict)
+    norm_dict = read_incremental_dict("../resource/Liu2011_clean.txt", norm_dict)
+    canonical_dict=[line.strip() for line in open('../resource/canonical_dict')]
+    create_feature_and_CANDlabel(args.file,norm_dict,canonical_dict)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,11 @@
 # 11731-text-normalization
 
+To Run:
+
+pip install editdistance
+
+python data/utils.py
+
 TODO List:
 
 Re-implement IHS_RD baseline in unconstrained mode? 

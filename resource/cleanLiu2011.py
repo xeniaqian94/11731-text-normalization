@@ -7,9 +7,17 @@
 f=open("Liu2011.txt","r")
 f_write=open("Liu2011_clean.txt","w")
 for line in f.readlines():
-    f_write.write(line.split("\t")[1].split("|")[0].strip()+"\t"+line.split("\t")[1].split("|")[1].strip()+"\n")
+    f_write.write(line.split("\t")[1].split("|")[0].strip()+"\t"+line.split("\t")[1].split("|")[1].strip()+"\t"+line.split("\t")[0]+"\n")
 f_write.close()
 f.close()
+
+f=open("Han2011.txt","r")
+f_write=open("Han2011_clean.txt","w")
+for line in f.readlines():
+    f_write.write(line.split()[0].strip()+"\t"+line.split()[1].strip()+"\t"+"1\n")
+f_write.close()
+f.close()
+
 
 
 # sed "s/[[:space:]]\+/ /g" Han2011.txt > Han2011_clean.txt
