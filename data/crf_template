@@ -1,0 +1,10 @@
+# Unigram: token, context(prev), context(after), alphanumeric, in_norm_dict, in_canonical_dict, word_length, num_vowel, word_length/num_vowel
+U00:%x[0,0]
+U01:%x[-1,0]
+U02:%x[1,0]
+U03:%x[0,1]
+U04:%x[0,2]
+U05:%x[0,3]
+U06:%x[0,4]
+U07:%x[0,5]
+U08:%x[0,4]/%x[0,5]

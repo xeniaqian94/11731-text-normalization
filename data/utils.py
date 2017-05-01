@@ -11,6 +11,8 @@ import argparse
 import re
 from collections import defaultdict
 import numpy as np
+import editdistance
+import itertools
 
 
 try:
@@ -23,8 +25,12 @@ def create_feature_and_CANDlabel(file_input,norm_dict,canonical_dict):
     output = open(file_input.split(".")[0] + "_CAND", "w")
 
     pred_list = json.load(open(file_input))
-
+    count=0
+    norm_dict_split=[norm_word.split() for norm_word in norm_dict] # "A L W A Y S"
+    norm_dict_subword = list(itertools.chain(*norm_dict_split))  # A L W A Y S
     for pred in pred_list:
+        count+=1
+        print count*1.0/len(pred_list)
         input_tokens = pred["input"]
         output_tokens = pred["output"]
         sent_length = len(input_tokens)
@@ -39,7 +45,7 @@ def create_feature_and_CANDlabel(file_input,norm_dict,canonical_dict):
                 tag = True
             if not re.match('^[a-zA-Z0-9]+[a-zA-Z0-9\']*$', this_token):
                 alphanumeric = False
-            if len([key for key in norm_dict.keys() if this_token in key.split()])>0:
+            if this_token in norm_dict_subword:
                 in_normalized_lexicon=True
             if this_token in canonical_dict:
                 in_canonical_dict=True
@@ -50,9 +56,11 @@ def create_feature_and_CANDlabel(file_input,norm_dict,canonical_dict):
                 if letter in vowels:
                     num_vowels += 1
 
-            edit_distance_within2=(np.asarray([])<2).any()
+            # edit_distance_within2=(np.asarray([editdistance.eval(word, this_token) for word in canonical_dict])<=2).any()
 
-            features = [str(alphanumeric),str(in_normalized_lexicon),str(in_canonical_dict),str(word_length),str(num_vowels)]
+            # features = [str(alphanumeric),str(in_normalized_lexicon),str(in_canonical_dict),str(word_length),str(num_vowels),str(edit_distance_within2)]
+            features = [str(alphanumeric), str(in_normalized_lexicon), str(in_canonical_dict), str(word_length),
+                        str(num_vowels)]
             feature_string = this_token
             for feat_ind in range(len(features)):
                 feature_string += " " + features[feat_ind]
@@ -122,14 +130,17 @@ def read_incremental_dict(file, norm_dict):
 
 def main():
     parser = argparse.ArgumentParser(description="Generate CRF CAND training data (in original order)")
-    parser.add_argument("--file", default="train_data_multiline.json")
+    parser.add_argument("--train_file", default="train_data_multiline.json")
+    parser.add_argument("--test_truth",default="test_truth_multiline.json")
+
     args = parser.parse_args()
 
-    norm_dict=training_data_normalization_lexicon(args.file)
+    norm_dict=training_data_normalization_lexicon(args.train_file)
     norm_dict=read_incremental_dict("../resource/Han2011_clean.txt",norm_dict)
     norm_dict = read_incremental_dict("../resource/Liu2011_clean.txt", norm_dict)
-    canonical_dict=[line.strip() for line in open('../resource/canonical_dict')]
-    create_feature_and_CANDlabel(args.file,norm_dict,canonical_dict)
+    canonical_dict=[unicode(line.strip(), errors='ignore')  for line in open('../resource/canonical_dict')]
+    # create_feature_and_CANDlabel(args.train_file,norm_dict,canonical_dict)
+    create_feature_and_CANDlabel(args.test_truth, norm_dict, canonical_dict)
 
 
 if __name__ == "__main__":

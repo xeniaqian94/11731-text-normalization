@@ -4,7 +4,9 @@ To Run:
 
 pip install editdistance
 
-python data/utils.py
+python data/utils.py # currently main() executes Experiment Setup 1 & 2 except 1.reading social media abbr list 2.edit distance feature (which takes a bit time to compute)
+
+exec_CRF.sh # For similar example, crfpp-master/example/chunking
 
 TODO List:
 
