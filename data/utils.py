@@ -131,6 +131,7 @@ def read_incremental_dict(file, norm_dict):
 def main():
     parser = argparse.ArgumentParser(description="Generate CRF CAND training data (in original order)")
     parser.add_argument("--train_file", default="train_data_multiline.json")
+    parser.add_argument("--valid_file",default="valid_data_multiline.json")
     parser.add_argument("--test_truth",default="test_truth_multiline.json")
 
     args = parser.parse_args()
@@ -140,7 +141,8 @@ def main():
     norm_dict = read_incremental_dict("../resource/Liu2011_clean.txt", norm_dict)
     canonical_dict=[unicode(line.strip(), errors='ignore')  for line in open('../resource/canonical_dict')]
     # create_feature_and_CANDlabel(args.train_file,norm_dict,canonical_dict)
-    create_feature_and_CANDlabel(args.test_truth, norm_dict, canonical_dict)
+    # create_feature_and_CANDlabel(args.test_truth, norm_dict, canonical_dict)
+    create_feature_and_CANDlabel(args.valid_file, norm_dict, canonical_dict)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,7 @@
 # 11731-text-normalization
 
+train_data 2000 sentences, valid_data 950 sentences
+
 To Run step 1 and 2:
 
 pip install editdistance
@@ -7,6 +9,8 @@ pip install editdistance
 python data/utils.py # currently main() executes Experiment Setup 1 & 2
 
 exec_CRF.sh # For similar example, crfpp-master/example/chunking
+
+# Now we have an in-order CAND/NOT_CAND label for test_truth dataset
 
 TODO List:
 
