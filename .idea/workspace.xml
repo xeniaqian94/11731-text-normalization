@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39e14380-4e36-4d92-866c-cc11ed490116" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/crf_template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/exec_CRF.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Presentation/050417.pptx" afterPath="$PROJECT_DIR$/Presentation/050417.pptx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crfpp-master/example/chunking/exec.sh" afterPath="$PROJECT_DIR$/crfpp-master/example/chunking/exec.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/train_data_multiline_CAND" afterPath="$PROJECT_DIR$/data/train_data_multiline_CAND" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/train_data_multiline_dict" afterPath="$PROJECT_DIR$/data/train_data_multiline_dict" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/utils.py" afterPath="$PROJECT_DIR$/data/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_truth_multiline_CAND.pred" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_truth_multiline_CAND.pred" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/test_truth_multiline_CAND.pred">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -140,10 +132,10 @@
         <option value="$PROJECT_DIR$/resource/lexicon.scowl.american.70" />
         <option value="$PROJECT_DIR$/data/train_data_multiline_CAND" />
         <option value="$PROJECT_DIR$/data/utils.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/crfpp-master/example/chunking/exec.sh" />
         <option value="$PROJECT_DIR$/data/exec_CRF.sh" />
         <option value="$PROJECT_DIR$/data/crf_template" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -831,14 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crfpp-master/example/chunking/train.data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -907,6 +891,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

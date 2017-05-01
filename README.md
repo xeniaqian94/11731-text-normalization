@@ -1,16 +1,25 @@
 # 11731-text-normalization
 
-To Run:
+To Run step 1 and 2:
 
 pip install editdistance
 
-python data/utils.py # currently main() executes Experiment Setup 1 & 2 except 1.reading social media abbr list 2.edit distance feature (which takes a bit time to compute)
+python data/utils.py # currently main() executes Experiment Setup 1 & 2
 
 exec_CRF.sh # For similar example, crfpp-master/example/chunking
 
 TODO List:
 
-Re-implement IHS_RD baseline in unconstrained mode? 
+Step 1.reading social media abbr list
+
+Step 2.edit distance feature (which takes a bit time to compute) -- we could ignore for now
+
+Step 3 (all) in test_truth_multiline_CAND.pred, normalize CAND token
+
+
+Other notes:
+
+Re-implement IHS_RD baseline in unconstrained mode?
 
 Baseline: https://groups.google.com/forum/#!topic/lexical-normalisation-for-english-tweets/hVKo0k3PYuQ
 
