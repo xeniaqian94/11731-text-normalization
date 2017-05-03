@@ -1,0 +1,4 @@
+Evaluating output/test3.json
+precision: 0.8708
+recall:    0.8184
+F1:        0.8438
