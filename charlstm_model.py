@@ -51,11 +51,20 @@ def create_char_index():
 
 def read_sentence(word_dict, word_vector, char_dict, p):
 
-    char_input = np.zeros((2000, MAX_WORD_LENGTH, MAX_CHAR_LENGTH), dtype = 'int32')
-    word_input = np.zeros((2000, MAX_WORD_LENGTH, 100), dtype = 'float32')
-    char_mask = np.zeros((2000, MAX_WORD_LENGTH, MAX_CHAR_LENGTH), dtype = 'float32')
-    word_mask = np.zeros((2000, MAX_WORD_LENGTH), dtype = 'float32')
-    labels = np.zeros((2000, MAX_WORD_LENGTH), dtype = 'int32')
+    if p == 'train':
+        size = 2000
+    elif p == 'valid':
+        size = 950
+    elif p == 'test':
+        size = 1967
+    else:
+        size = 2950
+
+    char_input = np.zeros((size, MAX_WORD_LENGTH, MAX_CHAR_LENGTH), dtype = 'int32')
+    word_input = np.zeros((size, MAX_WORD_LENGTH, 100), dtype = 'float32')
+    char_mask = np.zeros((size, MAX_WORD_LENGTH, MAX_CHAR_LENGTH), dtype = 'float32')
+    word_mask = np.zeros((size, MAX_WORD_LENGTH), dtype = 'float32')
+    labels = np.zeros((size, MAX_WORD_LENGTH), dtype = 'int32')
 
     # sentences = []
     # sentence = []
@@ -252,11 +261,12 @@ def main():
                 valid_corr += corr
                 valid_total += num
                 valid_preds.append(pred)
-
+            print("-------------")
             print("  valid accuracy:\t\t{:.6f}".format(valid_corr * 100.0 / valid_total))
 
             valid_prediction = np.concatenate(valid_preds)
             evaluate(valid_prediction, valid_Y)
+            print("-------------")
 
 if __name__ == '__main__':
     main()
