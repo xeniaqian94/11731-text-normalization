@@ -120,6 +120,22 @@ def iterate_minibatches(char_inputs, char_masks, word_inputs, word_masks, target
         else:
             excerpt = slice(start_idx, start_idx + batch_size)
         yield char_inputs[excerpt], char_masks[excerpt], word_inputs[excerpt], word_masks[excerpt], targets[excerpt]
+
+def evaluate(pred, label):
+    total = np.sum(label)
+    print total
+    found = np.sum(pred)
+    correct = 0
+    for i in range(pred.shape[0]):
+        for j in range(pred.shape[1]):
+            if pred[i][j] == label[i][j] == 1:
+                correct += 1
+    precision = correct * 100.0 / found
+    recall = correct * 100.0 / total
+    f1 = 2 * precision * recall / (precision + recall)
+    print('precision: ' + `precision`)
+    print('recall: ' + `recall`)
+    print('f1: ' + `f1`)
             
 def main():
 
@@ -132,11 +148,11 @@ def main():
     print 'done'
 
     print 'reading training data...'
-    train_char_X, train_word_X, train_char_mask, train_word_mask, train_Y = read_sentence(word_dict, word_vector, char_dict, 'train')
+    train_char_X, train_word_X, train_char_mask, train_word_mask, train_Y = read_sentence(word_dict, word_vector, char_dict, 'train_valid')
     print 'done'
 
     print 'reading validation data...'
-    valid_char_X, valid_word_X, valid_char_mask, valid_word_mask, valid_Y = read_sentence(word_dict, word_vector, char_dict, 'valid')
+    valid_char_X, valid_word_X, valid_char_mask, valid_word_mask, valid_Y = read_sentence(word_dict, word_vector, char_dict, 'test')
     print 'done'
 
     print 'building model...'
@@ -184,12 +200,12 @@ def main():
     energies_eval = lasagne.layers.get_output(crf, deterministic=True)
     loss_eval = crf_loss(energies_eval, target_var, mask_var).mean()
 
-    _, corr_train = crf_accuracy(energies_train, target_var)
+    train_pred, corr_train = crf_accuracy(energies_train, target_var)
     corr_train = (corr_train * mask_var).sum(dtype=theano.config.floatX)
     prediction_eval, corr_eval = crf_accuracy(energies_eval, target_var)
     corr_eval = (corr_eval * mask_var).sum(dtype=theano.config.floatX)
 
-    train = theano.function([char_input_var, char_mask_var, word_in.input_var, mask_var, target_var], [loss, corr_train, num_tokens], updates = updates)
+    train = theano.function([char_input_var, char_mask_var, word_in.input_var, mask_var, target_var], [loss, corr_train, train_pred, num_tokens], updates = updates)
 
     valid_eval = theano.function([char_input_var, char_mask_var, word_in.input_var, mask_var, target_var], [loss_eval, corr_eval, prediction_eval, num_tokens])
 
@@ -204,10 +220,13 @@ def main():
         train_batches = 0
         train_total = 0
         start_time = time.time()
-        
+        preds = []
+
         for batch in iterate_minibatches(train_char_X, train_char_mask, train_word_X, train_word_mask, train_Y):
+
             c_input, c_mask, w_input, w_mask, y = batch
-            batchloss, corr, num = train(c_input, c_mask, w_input, w_mask, y)
+            batchloss, corr, pred, num = train(c_input, c_mask, w_input, w_mask, y)
+            preds.append(pred)
             loss += batchloss
             train_corr += corr
             train_total += num
@@ -217,18 +236,27 @@ def main():
         print("  training loss:\t\t{:.6f}".format(loss/train_batches))
         print("  training accuracy:\t\t{:.6f}".format(train_corr * 100.0 / train_total))
 
-        valid_corr = 0
-        valid_total = 0
+        prediction = np.concatenate(preds)
+        evaluate(prediction, train_Y)
+
         if epoch % 5 == 0:
+
+            valid_corr = 0
+            valid_total = 0
+            valid_preds = []
+
             for batch in iterate_minibatches(valid_char_X, valid_char_mask, valid_word_X, valid_word_mask, valid_Y):
+
                 c_input, c_mask, w_input, w_mask, y = batch
                 loss, corr, pred, num = valid_eval(c_input, c_mask, w_input, w_mask, y)
-                print pred
                 valid_corr += corr
                 valid_total += num
+                valid_preds.append(pred)
+
             print("  valid accuracy:\t\t{:.6f}".format(valid_corr * 100.0 / valid_total))
 
-    
+            valid_prediction = np.concatenate(valid_preds)
+            evaluate(valid_prediction, valid_Y)
 
 if __name__ == '__main__':
     main()
