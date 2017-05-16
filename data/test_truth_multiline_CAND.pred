@@ -92,7 +92,7 @@ haha	True	True	False	4	2	NOT_CAND	NOT_CAND
 oh	True	False	True	2	1	NOT_CAND	NOT_CAND
 okk	True	True	False	3	1	CAND	CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
-yeaah	True	True	False	5	3	CAND	NOT_CAND
+yeaah	True	True	False	5	3	CAND	CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 they've	True	False	True	7	2	NOT_CAND	NOT_CAND
 been	True	False	True	4	2	NOT_CAND	NOT_CAND
@@ -569,7 +569,7 @@ kay	True	False	False	3	1	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 ye	True	True	True	2	1	NOT_CAND	NOT_CAND
 hame	True	False	True	4	2	NOT_CAND	NOT_CAND
-ma	True	True	True	2	1	NOT_CAND	CAND
+ma	True	True	True	2	1	NOT_CAND	NOT_CAND
 sikhao	True	False	False	6	3	NOT_CAND	NOT_CAND
 
 @icysoleonline	False	False	False	14	6	NOT_CAND	NOT_CAND
@@ -836,7 +836,7 @@ do	True	False	True	2	1	NOT_CAND	NOT_CAND
 hope	True	False	True	4	2	NOT_CAND	NOT_CAND
 those	True	False	True	5	2	NOT_CAND	NOT_CAND
 old	True	False	True	3	1	NOT_CAND	NOT_CAND
-bros	True	True	True	4	1	CAND	CAND
+bros	True	True	True	4	1	CAND	NOT_CAND
 and	True	False	True	3	1	NOT_CAND	NOT_CAND
 nkotb	True	False	False	5	1	NOT_CAND	NOT_CAND
 tapes	True	False	True	5	2	NOT_CAND	NOT_CAND
@@ -1118,7 +1118,7 @@ how	True	False	True	3	1	NOT_CAND	NOT_CAND
 old	True	False	True	3	1	NOT_CAND	NOT_CAND
 r	True	True	True	1	0	CAND	CAND
 u	True	True	True	1	1	CAND	CAND
-btw	True	False	False	3	0	CAND	NOT_CAND
+btw	True	False	False	3	0	CAND	CAND
 ?	False	False	False	1	0	NOT_CAND	NOT_CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
@@ -1290,8 +1290,8 @@ hu	True	False	False	2	1	NOT_CAND	NOT_CAND
 dat	True	True	True	3	1	CAND	CAND
 i	True	True	True	1	1	CAND	NOT_CAND
 g	True	True	True	1	0	CAND	NOT_CAND
-g	True	True	True	1	0	CAND	CAND
-y	True	True	True	1	0	CAND	CAND
+g	True	True	True	1	0	CAND	NOT_CAND
+y	True	True	True	1	0	CAND	NOT_CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @bieberannual	False	False	False	13	6	NOT_CAND	NOT_CAND
@@ -1562,7 +1562,7 @@ no	True	True	True	2	1	NOT_CAND	NOT_CAND
 group	True	False	True	5	2	NOT_CAND	NOT_CAND
 ....	False	False	False	4	0	NOT_CAND	NOT_CAND
 
-iight	True	True	False	5	2	CAND	CAND
+iight	True	True	False	5	2	CAND	NOT_CAND
 imma	True	True	False	4	2	CAND	CAND
 grab	True	False	True	4	1	NOT_CAND	NOT_CAND
 my	True	False	True	2	0	NOT_CAND	NOT_CAND
@@ -1663,7 +1663,7 @@ http://t.co/v9a2jad76u	False	False	False	22	4	NOT_CAND	NOT_CAND
 #f1	False	False	False	3	0	NOT_CAND	NOT_CAND
 #news	False	False	False	5	1	NOT_CAND	NOT_CAND
 
-hitsss	True	True	False	6	1	NOT_CAND	CAND
+hitsss	True	True	False	6	1	NOT_CAND	NOT_CAND
 (@	False	False	False	2	0	NOT_CAND	NOT_CAND
 fun	True	False	True	3	1	NOT_CAND	NOT_CAND
 world	True	False	True	5	1	NOT_CAND	NOT_CAND
@@ -1868,7 +1868,7 @@ http://t.co/pldslk74dt	False	False	False	22	1	NOT_CAND	NOT_CAND
 follow	True	False	True	6	2	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 asshat	True	False	False	6	2	NOT_CAND	NOT_CAND
-y	True	True	True	1	0	NOT_CAND	CAND
+y	True	True	True	1	0	NOT_CAND	NOT_CAND
 
 @kkamdayeol	False	False	False	11	4	NOT_CAND	NOT_CAND
 so	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -1941,7 +1941,7 @@ caller	True	False	True	6	2	NOT_CAND	NOT_CAND
 tunez	True	False	False	5	2	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
 mtn	True	False	False	3	0	NOT_CAND	NOT_CAND
-asap	True	True	True	4	2	CAND	CAND
+asap	True	True	True	4	2	CAND	NOT_CAND
 "	False	False	False	1	0	NOT_CAND	NOT_CAND
 thats	True	True	False	5	1	CAND	CAND
 whats	True	True	True	5	1	CAND	CAND
@@ -2205,7 +2205,7 @@ the	True	False	True	3	1	NOT_CAND	NOT_CAND
 omg	True	True	False	3	1	CAND	CAND
 girlz	True	True	False	5	1	CAND	CAND
 in	True	False	True	2	1	NOT_CAND	NOT_CAND
-atl	True	True	False	3	1	NOT_CAND	CAND
+atl	True	True	False	3	1	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 she	True	False	True	3	1	NOT_CAND	NOT_CAND
 had	True	False	True	3	1	NOT_CAND	NOT_CAND
@@ -2390,7 +2390,7 @@ http://t.co/jyhtyr1mvf	False	False	False	22	1	NOT_CAND	NOT_CAND
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @marvelnovelli	False	False	False	14	5	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
-rt	True	True	True	2	0	CAND	CAND
+rt	True	True	True	2	0	CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 an	True	False	True	2	1	NOT_CAND	NOT_CAND
 indirect	True	False	True	8	3	NOT_CAND	NOT_CAND
@@ -2413,7 +2413,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @noi_x	False	False	False	6	2	NOT_CAND	NOT_CAND
 @krowdpop	False	False	False	9	2	NOT_CAND	NOT_CAND
 @jmpgroup1	False	False	False	10	2	NOT_CAND	NOT_CAND
-y	True	True	True	1	0	NOT_CAND	CAND
+y	True	True	True	1	0	NOT_CAND	NOT_CAND
 agregado	True	False	False	8	4	NOT_CAND	NOT_CAND
 de	True	False	True	2	1	NOT_CAND	NOT_CAND
 ricky	True	False	False	5	1	NOT_CAND	NOT_CAND
@@ -2804,7 +2804,7 @@ a	True	True	True	1	1	NOT_CAND	NOT_CAND
 restaurant	True	False	True	10	4	NOT_CAND	NOT_CAND
 nd	True	True	False	2	0	CAND	CAND
 u	True	True	True	1	1	CAND	CAND
-c	True	True	True	1	0	CAND	NOT_CAND
+c	True	True	True	1	0	CAND	CAND
 ur	True	True	False	2	1	CAND	CAND
 food	True	False	True	4	2	NOT_CAND	NOT_CAND
 comin	True	True	False	5	2	CAND	CAND
@@ -2896,7 +2896,7 @@ tax	True	False	True	3	1	NOT_CAND	NOT_CAND
 with	True	False	True	4	1	NOT_CAND	NOT_CAND
 this	True	False	True	4	1	NOT_CAND	NOT_CAND
 forex	True	False	False	5	2	NOT_CAND	NOT_CAND
-ebook	True	True	False	5	3	NOT_CAND	CAND
+ebook	True	True	False	5	3	NOT_CAND	NOT_CAND
 http://t.co/n9qcrck5uj	False	False	False	22	2	NOT_CAND	NOT_CAND
 
 ful	True	False	False	3	1	NOT_CAND	NOT_CAND
@@ -2937,7 +2937,7 @@ http://t.co/t1u70s1vv9	False	False	False	22	2	NOT_CAND	NOT_CAND
 yo	True	True	True	2	1	CAND	CAND
 my	True	False	True	2	0	NOT_CAND	NOT_CAND
 own	True	False	True	3	1	NOT_CAND	NOT_CAND
-gf	True	True	False	2	0	CAND	CAND
+gf	True	True	False	2	0	CAND	NOT_CAND
 hasnt	True	True	False	5	1	CAND	CAND
 even	True	False	True	4	2	NOT_CAND	NOT_CAND
 told	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -3158,7 +3158,7 @@ jaddhah	True	False	False	7	2	NOT_CAND	NOT_CAND
 dont	True	True	False	4	1	CAND	CAND
 know	True	False	True	4	1	NOT_CAND	NOT_CAND
 where	True	False	True	5	2	NOT_CAND	NOT_CAND
-ll	True	True	True	2	0	NOT_CAND	CAND
+ll	True	True	True	2	0	NOT_CAND	NOT_CAND
 2025	True	False	False	4	0	NOT_CAND	NOT_CAND
 will	True	False	True	4	1	NOT_CAND	NOT_CAND
 take	True	False	True	4	2	NOT_CAND	NOT_CAND
@@ -3441,7 +3441,7 @@ just	True	False	True	4	1	NOT_CAND	NOT_CAND
 guided	True	False	True	6	3	NOT_CAND	NOT_CAND
 efc	True	False	False	3	1	NOT_CAND	NOT_CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
-2nd	True	True	False	3	0	NOT_CAND	CAND
+2nd	True	True	False	3	0	NOT_CAND	NOT_CAND
 place	True	False	True	5	2	NOT_CAND	NOT_CAND
 in	True	False	True	2	1	NOT_CAND	NOT_CAND
 non-league	False	False	False	10	5	NOT_CAND	NOT_CAND
@@ -3593,7 +3593,7 @@ driving	True	False	True	7	2	NOT_CAND	NOT_CAND
 
 @number10cat	False	False	False	12	3	NOT_CAND	NOT_CAND
 meet	True	False	True	4	2	NOT_CAND	NOT_CAND
-biz	True	True	True	3	1	NOT_CAND	CAND
+biz	True	True	True	3	1	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 he	True	False	True	2	1	NOT_CAND	NOT_CAND
 lives	True	False	True	5	2	NOT_CAND	NOT_CAND
@@ -3919,7 +3919,7 @@ your	True	False	True	4	2	NOT_CAND	NOT_CAND
 lost	True	False	True	4	1	NOT_CAND	NOT_CAND
 
 @ieyda24	False	False	False	8	3	NOT_CAND	NOT_CAND
-ohh	True	True	False	3	1	NOT_CAND	CAND
+ohh	True	True	False	3	1	NOT_CAND	NOT_CAND
 kira	True	False	False	4	2	NOT_CAND	NOT_CAND
 average	True	False	True	7	4	NOT_CAND	NOT_CAND
 rm50	True	False	False	4	0	NOT_CAND	NOT_CAND
@@ -4172,7 +4172,7 @@ derek	True	False	False	5	2	NOT_CAND	NOT_CAND
 and	True	False	True	3	1	NOT_CAND	NOT_CAND
 geoff	True	False	False	5	2	NOT_CAND	NOT_CAND
 ?	False	False	False	1	0	NOT_CAND	NOT_CAND
-rt	True	True	True	2	0	CAND	CAND
+rt	True	True	True	2	0	CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 #derek	False	False	False	6	2	NOT_CAND	NOT_CAND
 fav	True	True	False	3	1	CAND	CAND
@@ -4232,7 +4232,7 @@ that	True	False	True	4	1	NOT_CAND	NOT_CAND
 @selectacornetto	False	False	False	16	6	NOT_CAND	NOT_CAND
 made	True	False	True	4	2	NOT_CAND	NOT_CAND
 this	True	False	True	4	1	NOT_CAND	NOT_CAND
-forme	True	True	True	5	2	NOT_CAND	CAND
+forme	True	True	True	5	2	NOT_CAND	NOT_CAND
 tosee	True	False	False	5	3	NOT_CAND	NOT_CAND
 taylorswift	True	False	False	11	3	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -4577,7 +4577,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 #wernerherzog's	False	False	False	15	4	NOT_CAND	NOT_CAND
 mesmerizing	True	False	True	11	4	NOT_CAND	NOT_CAND
 experimental	True	False	True	12	5	NOT_CAND	NOT_CAND
-doc	True	True	True	3	1	NOT_CAND	CAND
+doc	True	True	True	3	1	NOT_CAND	NOT_CAND
 fata	True	False	False	4	2	NOT_CAND	NOT_CAND
 morgana	True	False	False	7	3	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -4599,7 +4599,7 @@ serious	True	False	True	7	4	NOT_CAND	NOT_CAND
 at	True	False	True	2	1	NOT_CAND	NOT_CAND
 least	True	False	True	5	2	NOT_CAND	NOT_CAND
 refund	True	False	True	6	2	NOT_CAND	NOT_CAND
-y	True	True	True	1	0	CAND	CAND
+y	True	True	True	1	0	CAND	NOT_CAND
 50k	True	False	False	3	0	NOT_CAND	NOT_CAND
 lock	True	False	True	4	1	NOT_CAND	NOT_CAND
 in	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -4850,9 +4850,9 @@ since	True	False	True	5	2	NOT_CAND	NOT_CAND
 n	True	True	True	1	0	CAND	CAND
 i	True	True	True	1	1	NOT_CAND	NOT_CAND
 cnt	True	True	False	3	0	CAND	CAND
-gt	True	True	True	2	0	CAND	CAND
+gt	True	True	True	2	0	CAND	NOT_CAND
 it	True	False	True	2	1	NOT_CAND	NOT_CAND
-bk	True	True	True	2	0	CAND	CAND
+bk	True	True	True	2	0	CAND	NOT_CAND
 yt	True	True	False	2	0	CAND	CAND
 @dkenpachi	False	False	False	10	3	NOT_CAND	NOT_CAND
 
@@ -5033,7 +5033,7 @@ damn	True	False	True	4	1	NOT_CAND	NOT_CAND
 #nowplaying	False	False	False	11	3	NOT_CAND	NOT_CAND
 mentiras	True	False	False	8	3	NOT_CAND	NOT_CAND
 by	True	False	True	2	0	NOT_CAND	NOT_CAND
-los	True	True	False	3	1	NOT_CAND	CAND
+los	True	True	False	3	1	NOT_CAND	NOT_CAND
 amigos	True	False	True	6	3	NOT_CAND	NOT_CAND
 invisibles	True	True	False	10	4	NOT_CAND	CAND
 from	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -5127,14 +5127,14 @@ transformers	True	False	True	12	3	NOT_CAND	NOT_CAND
 i	True	True	True	1	1	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 ii	True	True	True	2	2	NOT_CAND	CAND
-y	True	True	True	1	0	NOT_CAND	CAND
+y	True	True	True	1	0	NOT_CAND	NOT_CAND
 iii	True	False	True	3	3	NOT_CAND	NOT_CAND
 :)	False	False	False	2	0	NOT_CAND	NOT_CAND
 #mexicali	False	False	False	9	4	NOT_CAND	NOT_CAND
 http://t.co/vy05qolrib	False	False	False	22	3	NOT_CAND	NOT_CAND
 
 @denile227	False	False	False	10	3	NOT_CAND	NOT_CAND
-ahaha	True	True	False	5	3	NOT_CAND	NOT_CAND
+ahaha	True	True	False	5	3	NOT_CAND	CAND
 fair	True	False	True	4	2	NOT_CAND	NOT_CAND
 play	True	False	True	4	1	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -5179,8 +5179,8 @@ ah	True	False	True	2	1	NOT_CAND	NOT_CAND
 didja	True	False	False	5	2	NOT_CAND	NOT_CAND
 ..?	False	False	False	3	0	NOT_CAND	NOT_CAND
 sorry	True	False	True	5	1	NOT_CAND	NOT_CAND
-fer	True	True	True	3	1	NOT_CAND	CAND
-disappearin	True	True	False	11	5	CAND	NOT_CAND
+fer	True	True	True	3	1	NOT_CAND	NOT_CAND
+disappearin	True	True	False	11	5	CAND	CAND
 '	False	False	False	1	0	NOT_CAND	NOT_CAND
 like	True	False	True	4	2	NOT_CAND	NOT_CAND
 that	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -5248,7 +5248,7 @@ jake	True	False	False	4	2	NOT_CAND	NOT_CAND
 bugg	True	True	False	4	1	NOT_CAND	CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 ariana	True	False	False	6	4	NOT_CAND	NOT_CAND
-grande	True	True	False	6	2	NOT_CAND	CAND
+grande	True	True	False	6	2	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 arctic	True	False	True	6	2	NOT_CAND	NOT_CAND
 monkeys	True	False	True	7	2	NOT_CAND	NOT_CAND
@@ -5720,7 +5720,7 @@ yu	True	True	False	2	1	CAND	CAND
 at	True	False	True	2	1	NOT_CAND	NOT_CAND
 tizz	True	False	True	4	1	NOT_CAND	NOT_CAND
 
-nama	True	True	False	4	2	NOT_CAND	NOT_CAND
+nama	True	True	False	4	2	NOT_CAND	CAND
 band	True	False	True	4	1	NOT_CAND	NOT_CAND
 bang	True	False	True	4	1	NOT_CAND	NOT_CAND
 ali	True	False	False	3	2	NOT_CAND	NOT_CAND
@@ -5950,7 +5950,7 @@ for	True	False	True	3	1	NOT_CAND	NOT_CAND
 min	True	True	True	3	1	CAND	CAND
 kafi	True	False	False	4	2	NOT_CAND	NOT_CAND
 det	True	False	False	3	1	NOT_CAND	NOT_CAND
-tak	True	True	False	3	1	NOT_CAND	CAND
+tak	True	True	False	3	1	NOT_CAND	NOT_CAND
 follow	True	False	True	6	2	NOT_CAND	NOT_CAND
 kiya	True	False	False	4	2	NOT_CAND	NOT_CAND
 tha	True	True	False	3	1	CAND	CAND
@@ -5973,7 +5973,7 @@ come	True	False	True	4	2	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
 over	True	False	True	4	2	NOT_CAND	NOT_CAND
 dave	True	False	False	4	2	NOT_CAND	NOT_CAND
-n	True	True	True	1	0	CAND	CAND
+n	True	True	True	1	0	CAND	NOT_CAND
 jo	True	False	True	2	1	NOT_CAND	NOT_CAND
 won't	True	False	True	5	1	NOT_CAND	NOT_CAND
 mind	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -6334,7 +6334,7 @@ samin	True	False	False	5	2	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 haha	True	True	False	4	2	NOT_CAND	NOT_CAND
 love	True	False	True	4	2	NOT_CAND	NOT_CAND
-yew	True	True	True	3	1	CAND	CAND
+yew	True	True	True	3	1	CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
@@ -6574,7 +6574,7 @@ kee	True	False	False	3	2	NOT_CAND	NOT_CAND
 kee	True	False	False	3	2	NOT_CAND	NOT_CAND
 ..	False	False	False	2	0	NOT_CAND	NOT_CAND
 
-easterling	True	True	False	10	4	NOT_CAND	NOT_CAND
+easterling	True	True	False	10	4	NOT_CAND	CAND
 named	True	False	True	5	2	NOT_CAND	NOT_CAND
 finalist	True	False	True	8	3	NOT_CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
@@ -6661,7 +6661,7 @@ be	True	True	True	2	1	NOT_CAND	NOT_CAND
 an	True	False	True	2	1	NOT_CAND	NOT_CAND
 outdoor	True	False	True	7	4	NOT_CAND	NOT_CAND
 kung	True	False	False	4	1	NOT_CAND	NOT_CAND
-fu	True	True	False	2	1	NOT_CAND	CAND
+fu	True	True	False	2	1	NOT_CAND	NOT_CAND
 class	True	False	True	5	1	NOT_CAND	NOT_CAND
 at	True	False	True	2	1	NOT_CAND	NOT_CAND
 6:00	False	False	False	4	0	NOT_CAND	NOT_CAND
@@ -7039,7 +7039,7 @@ same	True	False	True	4	2	NOT_CAND	NOT_CAND
 girl	True	False	True	4	1	NOT_CAND	NOT_CAND
 "	False	False	False	1	0	NOT_CAND	NOT_CAND
 x	True	False	True	1	0	NOT_CAND	NOT_CAND
-r	True	True	True	1	0	NOT_CAND	CAND
+r	True	True	True	1	0	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 kelly	True	False	True	5	1	NOT_CAND	NOT_CAND
 &	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -7273,7 +7273,7 @@ carcillo	True	False	False	8	3	NOT_CAND	NOT_CAND
 step	True	False	True	4	1	NOT_CAND	NOT_CAND
 ..	False	False	False	2	0	NOT_CAND	NOT_CAND
 krides	True	False	False	6	2	NOT_CAND	NOT_CAND
-moore	True	True	False	5	3	NOT_CAND	CAND
+moore	True	True	False	5	3	NOT_CAND	NOT_CAND
 nash/	False	False	False	5	1	NOT_CAND	NOT_CAND
 stlouis	True	False	False	7	3	NOT_CAND	NOT_CAND
 rich	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -7676,7 +7676,7 @@ barkada	True	False	False	7	3	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 way	True	False	True	3	1	NOT_CAND	NOT_CAND
-na	True	True	False	2	1	NOT_CAND	CAND
+na	True	True	False	2	1	NOT_CAND	NOT_CAND
 ako	True	False	False	3	2	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 "	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -7689,7 +7689,7 @@ minutes	True	False	True	7	3	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 way	True	False	True	3	1	NOT_CAND	NOT_CAND
-na	True	True	False	2	1	NOT_CAND	CAND
+na	True	True	False	2	1	NOT_CAND	NOT_CAND
 talaga	True	False	False	6	3	NOT_CAND	NOT_CAND
 ako	True	False	False	3	2	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -7744,7 +7744,7 @@ munster	True	False	False	7	2	NOT_CAND	NOT_CAND
 senior	True	False	True	6	3	NOT_CAND	NOT_CAND
 camogie	True	False	False	7	4	NOT_CAND	NOT_CAND
 final	True	False	True	5	2	NOT_CAND	NOT_CAND
-v	True	False	True	1	0	NOT_CAND	NOT_CAND
+v	True	False	True	1	0	NOT_CAND	CAND
 cork	True	False	True	4	1	NOT_CAND	NOT_CAND
 at	True	False	True	2	1	NOT_CAND	NOT_CAND
 charleville	True	False	False	11	4	NOT_CAND	NOT_CAND
@@ -7802,7 +7802,7 @@ shit	True	False	True	4	1	NOT_CAND	NOT_CAND
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @itsjizmuh	False	False	False	10	3	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
-thankyou	True	False	False	8	3	CAND	NOT_CAND
+thankyou	True	False	False	8	3	CAND	CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 13k	True	False	False	3	0	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -7843,7 +7843,7 @@ will	True	False	True	4	1	NOT_CAND	NOT_CAND
 not	True	False	True	3	1	NOT_CAND	NOT_CAND
 fix	True	False	True	3	1	NOT_CAND	NOT_CAND
 that	True	False	True	4	1	NOT_CAND	NOT_CAND
-facee	True	True	False	5	3	CAND	NOT_CAND
+facee	True	True	False	5	3	CAND	CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 
 ragara	True	False	False	6	3	NOT_CAND	NOT_CAND
@@ -7883,7 +7883,7 @@ the	True	False	True	3	1	NOT_CAND	NOT_CAND
 wrong	True	False	True	5	1	NOT_CAND	NOT_CAND
 dan	True	False	False	3	1	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
-hahha	True	True	False	5	2	NOT_CAND	CAND
+hahha	True	True	False	5	2	NOT_CAND	NOT_CAND
 omg	True	True	False	3	1	CAND	CAND
 i'm	True	False	False	3	1	NOT_CAND	NOT_CAND
 sorry	True	False	True	5	1	NOT_CAND	NOT_CAND
@@ -7959,7 +7959,7 @@ prayer	True	False	True	6	2	NOT_CAND	NOT_CAND
 
 @kita_baybee	False	False	False	12	5	NOT_CAND	NOT_CAND
 lol	True	True	False	3	1	CAND	CAND
-na	True	True	False	2	1	NOT_CAND	CAND
+na	True	True	False	2	1	NOT_CAND	NOT_CAND
 you	True	False	True	3	2	NOT_CAND	NOT_CAND
 buggin	True	True	False	6	2	NOT_CAND	CAND
 '	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -8039,7 +8039,7 @@ we'll	True	False	True	5	1	NOT_CAND	NOT_CAND
 surely	True	False	True	6	2	NOT_CAND	NOT_CAND
 fly	True	False	True	3	0	NOT_CAND	NOT_CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
-mnl	True	False	False	3	0	NOT_CAND	NOT_CAND
+mnl	True	False	False	3	0	NOT_CAND	CAND
 with	True	False	True	4	1	NOT_CAND	NOT_CAND
 airasia	True	False	False	7	5	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -8334,7 +8334,7 @@ on	True	False	True	2	1	NOT_CAND	NOT_CAND
 david	True	False	False	5	2	NOT_CAND	NOT_CAND
 price	True	False	True	5	2	NOT_CAND	NOT_CAND
 ..	False	False	False	2	0	NOT_CAND	NOT_CAND
-redsox	True	False	False	6	2	CAND	NOT_CAND
+redsox	True	False	False	6	2	CAND	CAND
 mlb	True	True	False	3	0	CAND	CAND
 http://t.co/56ytydo8vt	False	False	False	22	2	NOT_CAND	NOT_CAND
 
@@ -8621,7 +8621,7 @@ you	True	False	True	3	2	NOT_CAND	NOT_CAND
 have	True	False	True	4	2	NOT_CAND	NOT_CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
 beard	True	False	True	5	2	NOT_CAND	NOT_CAND
-aaand	True	True	False	5	3	CAND	NOT_CAND
+aaand	True	True	False	5	3	CAND	CAND
 play	True	False	True	4	1	NOT_CAND	NOT_CAND
 futbol	True	False	False	6	2	CAND	NOT_CAND
 ?	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -8912,7 +8912,7 @@ verdict	True	False	True	7	2	NOT_CAND	NOT_CAND
 @general_marley	False	False	False	15	5	NOT_CAND	NOT_CAND
 murder	True	False	True	6	2	NOT_CAND	NOT_CAND
 will	True	False	True	4	1	NOT_CAND	NOT_CAND
-b	True	True	True	1	0	CAND	CAND
+b	True	True	True	1	0	CAND	NOT_CAND
 d	True	True	True	1	0	CAND	CAND
 case	True	False	True	4	2	NOT_CAND	NOT_CAND
 "	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -9281,7 +9281,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @akmuplayland	False	False	False	13	4	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 xoxo	True	False	False	4	2	NOT_CAND	NOT_CAND
-ep	True	True	False	2	1	NOT_CAND	CAND
+ep	True	True	False	2	1	NOT_CAND	NOT_CAND
 3	True	False	False	1	0	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 exo	True	False	False	3	2	NOT_CAND	NOT_CAND
@@ -9537,7 +9537,7 @@ celebration	True	False	True	11	5	NOT_CAND	NOT_CAND
 tnk	True	False	False	3	0	CAND	NOT_CAND
 y'all	True	False	True	5	1	NOT_CAND	NOT_CAND
 4	True	True	False	1	0	CAND	NOT_CAND
-cumin	True	True	True	5	2	CAND	CAND
+cumin	True	True	True	5	2	CAND	NOT_CAND
 
 when	True	False	True	4	1	NOT_CAND	NOT_CAND
 you	True	False	True	3	2	NOT_CAND	NOT_CAND
@@ -9608,7 +9608,7 @@ car	True	False	True	3	1	NOT_CAND	NOT_CAND
 parkd	True	True	False	5	1	CAND	CAND
 nd	True	True	False	2	0	CAND	CAND
 suddenly	True	False	True	8	2	NOT_CAND	NOT_CAND
-d	True	True	True	1	0	CAND	CAND
+d	True	True	True	1	0	CAND	NOT_CAND
 driver	True	False	True	6	2	NOT_CAND	NOT_CAND
 starts	True	False	True	6	1	NOT_CAND	NOT_CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -9683,7 +9683,7 @@ tejada	True	False	False	6	3	NOT_CAND	NOT_CAND
 ima	True	True	False	3	2	CAND	CAND
 request	True	False	True	7	3	NOT_CAND	NOT_CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
-lyft	True	False	False	4	0	CAND	NOT_CAND
+lyft	True	False	False	4	0	CAND	CAND
 if	True	False	True	2	1	NOT_CAND	NOT_CAND
 my	True	False	True	2	0	NOT_CAND	NOT_CAND
 first	True	False	True	5	1	NOT_CAND	NOT_CAND
@@ -9900,7 +9900,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 scott	True	False	False	5	1	NOT_CAND	NOT_CAND
 today	True	False	True	5	2	NOT_CAND	NOT_CAND
-w	True	True	True	1	0	CAND	NOT_CAND
+w	True	True	True	1	0	CAND	CAND
 morgan	True	False	False	6	2	NOT_CAND	NOT_CAND
 freeman	True	False	True	7	3	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -9984,7 +9984,7 @@ trick	True	False	True	5	1	NOT_CAND	NOT_CAND
 http://t.co/3oo9a7grgh	False	False	False	22	4	NOT_CAND	NOT_CAND
 
 thanks	True	False	True	6	1	NOT_CAND	NOT_CAND
-4	True	True	False	1	0	NOT_CAND	NOT_CAND
+4	True	True	False	1	0	NOT_CAND	CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 teamwork	True	False	True	8	3	NOT_CAND	NOT_CAND
 tonight	True	False	True	7	2	NOT_CAND	NOT_CAND
@@ -10140,7 +10140,7 @@ u	True	True	True	1	1	CAND	CAND
 but	True	False	True	3	1	NOT_CAND	NOT_CAND
 im	True	True	False	2	1	CAND	CAND
 wrong	True	False	True	5	1	NOT_CAND	NOT_CAND
-thou	True	True	True	4	2	CAND	NOT_CAND
+thou	True	True	True	4	2	CAND	CAND
 lol	True	True	False	3	1	CAND	CAND
 smh	True	True	False	3	0	CAND	CAND
 
@@ -10255,7 +10255,7 @@ a	True	True	True	1	1	NOT_CAND	NOT_CAND
 mystery	True	False	True	7	1	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 happy	True	False	True	5	1	NOT_CAND	NOT_CAND
-nu	True	True	True	2	1	NOT_CAND	CAND
+nu	True	True	True	2	1	NOT_CAND	NOT_CAND
 week	True	False	True	4	2	NOT_CAND	NOT_CAND
 folkz	True	False	False	5	1	CAND	NOT_CAND
 stay	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -10466,7 +10466,7 @@ nath	True	False	False	4	1	NOT_CAND	NOT_CAND
 vs	True	False	True	2	0	NOT_CAND	NOT_CAND
 jai	True	False	False	3	2	NOT_CAND	NOT_CAND
 ~	False	False	False	1	0	NOT_CAND	NOT_CAND
-rt	True	True	True	2	0	CAND	CAND
+rt	True	True	True	2	0	CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 nathan	True	False	False	6	2	NOT_CAND	NOT_CAND
 sykes	True	False	False	5	1	NOT_CAND	NOT_CAND
@@ -10521,7 +10521,7 @@ scooter	True	False	True	7	3	NOT_CAND	NOT_CAND
 ft	True	True	True	2	0	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 lil	True	True	False	3	1	CAND	CAND
-phat	True	True	True	4	1	NOT_CAND	CAND
+phat	True	True	True	4	1	NOT_CAND	NOT_CAND
 x	True	False	True	1	0	NOT_CAND	NOT_CAND
 been	True	False	True	4	2	NOT_CAND	NOT_CAND
 thru	True	True	True	4	1	CAND	CAND
@@ -11047,7 +11047,7 @@ apology	True	False	True	7	3	NOT_CAND	NOT_CAND
 and	True	False	True	3	1	NOT_CAND	NOT_CAND
 go	True	False	True	2	1	NOT_CAND	NOT_CAND
 fuck	True	False	True	4	1	NOT_CAND	NOT_CAND
-ya	True	True	True	2	1	CAND	NOT_CAND
+ya	True	True	True	2	1	CAND	CAND
 self	True	False	True	4	1	CAND	NOT_CAND
 ...	False	False	False	3	0	NOT_CAND	NOT_CAND
 lmao	True	True	False	4	2	CAND	CAND
@@ -11089,7 +11089,7 @@ langsung	True	False	False	8	2	NOT_CAND	NOT_CAND
 @nrshopsby	False	False	False	10	1	NOT_CAND	NOT_CAND
 082244262291	True	False	False	12	0	NOT_CAND	NOT_CAND
 welcome	True	False	True	7	3	NOT_CAND	NOT_CAND
-reseller	True	True	True	8	3	NOT_CAND	CAND
+reseller	True	True	True	8	3	NOT_CAND	NOT_CAND
 !!!	False	False	False	3	0	NOT_CAND	NOT_CAND
 
 im	True	True	False	2	1	CAND	CAND
@@ -11182,7 +11182,7 @@ didn	True	True	False	4	1	CAND	CAND
 t	True	True	True	1	0	CAND	NOT_CAND
 know	True	False	True	4	1	NOT_CAND	NOT_CAND
 you	True	False	True	3	2	NOT_CAND	NOT_CAND
-uploaded	True	True	True	8	4	NOT_CAND	CAND
+uploaded	True	True	True	8	4	NOT_CAND	NOT_CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
 new	True	False	True	3	1	NOT_CAND	NOT_CAND
 video	True	False	True	5	3	NOT_CAND	NOT_CAND
@@ -11529,7 +11529,7 @@ just	True	False	True	4	1	NOT_CAND	NOT_CAND
 fucking	True	False	True	7	2	NOT_CAND	NOT_CAND
 talk	True	False	True	4	1	NOT_CAND	NOT_CAND
 more	True	False	True	4	2	NOT_CAND	NOT_CAND
-seriusly	True	True	False	8	3	CAND	CAND
+seriusly	True	True	False	8	3	CAND	NOT_CAND
 hes	True	True	True	3	1	CAND	CAND
 so	True	False	True	2	1	NOT_CAND	NOT_CAND
 sweet	True	False	True	5	2	NOT_CAND	NOT_CAND
@@ -11544,9 +11544,9 @@ jord	True	False	False	4	1	CAND	NOT_CAND
 then	True	False	True	4	1	NOT_CAND	NOT_CAND
 haha	True	True	False	4	2	NOT_CAND	NOT_CAND
 
-shoutout	True	True	False	8	4	CAND	NOT_CAND
+shoutout	True	True	False	8	4	CAND	CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
-ma	True	True	True	2	1	CAND	CAND
+ma	True	True	True	2	1	CAND	NOT_CAND
 naughty	True	False	True	7	2	NOT_CAND	NOT_CAND
 lovely	True	False	True	6	2	NOT_CAND	NOT_CAND
 frnd	True	True	False	4	0	CAND	CAND
@@ -11677,7 +11677,7 @@ got	True	False	True	3	1	NOT_CAND	NOT_CAND
 bitches	True	False	True	7	2	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
 my	True	False	True	2	0	NOT_CAND	NOT_CAND
-dick	True	True	True	4	1	NOT_CAND	CAND
+dick	True	True	True	4	1	NOT_CAND	NOT_CAND
 an	True	False	True	2	1	NOT_CAND	NOT_CAND
 niggaz	True	True	False	6	2	CAND	CAND
 wanna	True	False	True	5	2	NOT_CAND	NOT_CAND
@@ -11718,7 +11718,7 @@ message	True	False	True	7	3	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 speaking	True	False	True	8	3	NOT_CAND	NOT_CAND
 that	True	False	True	4	1	NOT_CAND	NOT_CAND
-realness	True	True	True	8	3	NOT_CAND	CAND
+realness	True	True	True	8	3	NOT_CAND	NOT_CAND
 "	False	False	False	1	0	NOT_CAND	NOT_CAND
 d	True	True	True	1	0	NOT_CAND	NOT_CAND
 ...	False	False	False	3	0	NOT_CAND	NOT_CAND
@@ -11761,7 +11761,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 louis	True	False	True	5	3	NOT_CAND	NOT_CAND
 esta	True	False	False	4	2	NOT_CAND	NOT_CAND
 noche	True	False	False	5	2	NOT_CAND	NOT_CAND
-en	True	True	True	2	1	NOT_CAND	CAND
+en	True	True	True	2	1	NOT_CAND	NOT_CAND
 sunderland	True	False	False	10	3	NOT_CAND	NOT_CAND
 #1da	False	False	False	4	1	NOT_CAND	NOT_CAND
 http://t.co/es76snrkzj	False	False	False	22	2	NOT_CAND	NOT_CAND
@@ -11882,7 +11882,7 @@ pedro	True	False	False	5	2	NOT_CAND	NOT_CAND
 pascal	True	False	True	6	2	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 jenga	True	False	False	5	2	NOT_CAND	NOT_CAND
-extraordinaire	True	True	True	14	7	NOT_CAND	CAND
+extraordinaire	True	True	True	14	7	NOT_CAND	NOT_CAND
 (	False	False	False	1	0	NOT_CAND	NOT_CAND
 or	True	False	True	2	1	NOT_CAND	NOT_CAND
 pedro	True	False	False	5	2	NOT_CAND	NOT_CAND
@@ -11911,7 +11911,7 @@ like	True	False	True	4	2	NOT_CAND	NOT_CAND
 my	True	False	True	2	0	NOT_CAND	NOT_CAND
 quotes	True	False	True	6	3	NOT_CAND	NOT_CAND
 bitch	True	False	True	5	1	NOT_CAND	NOT_CAND
-unfollow	True	True	False	8	3	NOT_CAND	CAND
+unfollow	True	True	False	8	3	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 cause	True	True	True	5	3	CAND	CAND
 they	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -11967,7 +11967,7 @@ sammi	True	True	False	5	2	NOT_CAND	CAND
 tho	True	True	True	3	1	CAND	CAND
 
 i	True	True	True	1	1	NOT_CAND	NOT_CAND
-bee	True	True	True	3	2	CAND	CAND
+bee	True	True	True	3	2	CAND	NOT_CAND
 geeked	True	False	False	6	3	NOT_CAND	NOT_CAND
 upp	True	True	False	3	1	CAND	CAND
 of	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -12319,7 +12319,7 @@ dekh	True	False	False	4	1	NOT_CAND	NOT_CAND
 lunga	True	False	False	5	2	NOT_CAND	NOT_CAND
 :p	False	False	False	2	0	NOT_CAND	NOT_CAND
 
-goodluck	True	True	False	8	3	CAND	CAND
+goodluck	True	True	False	8	3	CAND	NOT_CAND
 ning	True	False	False	4	1	NOT_CAND	NOT_CAND
 you	True	False	True	3	2	NOT_CAND	NOT_CAND
 can	True	False	True	3	1	NOT_CAND	NOT_CAND
@@ -12478,7 +12478,7 @@ tryna	True	True	False	5	1	CAND	CAND
 be	True	True	True	2	1	NOT_CAND	NOT_CAND
 like	True	False	True	4	2	NOT_CAND	NOT_CAND
 you	True	False	True	3	2	NOT_CAND	NOT_CAND
-shawty	True	True	False	6	1	NOT_CAND	CAND
+shawty	True	True	False	6	1	NOT_CAND	NOT_CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @_nate9	False	False	False	7	2	NOT_CAND	NOT_CAND
@@ -12639,7 +12639,7 @@ ronaldo	True	False	False	7	3	NOT_CAND	NOT_CAND
 -	False	False	False	1	0	NOT_CAND	NOT_CAND
 classless	True	False	True	9	2	NOT_CAND	NOT_CAND
 greasy	True	False	True	6	2	NOT_CAND	NOT_CAND
-wanker	True	True	True	6	2	NOT_CAND	CAND
+wanker	True	True	True	6	2	NOT_CAND	NOT_CAND
 
 shouldnt	True	True	False	8	2	CAND	CAND
 be	True	True	True	2	1	NOT_CAND	NOT_CAND
@@ -12664,7 +12664,7 @@ she's	True	False	True	5	1	NOT_CAND	NOT_CAND
 hottter	True	True	False	7	2	NOT_CAND	CAND
 than	True	False	True	4	1	NOT_CAND	NOT_CAND
 your	True	False	True	4	2	NOT_CAND	NOT_CAND
-gf	True	True	False	2	0	CAND	NOT_CAND
+gf	True	True	False	2	0	CAND	CAND
 lmao	True	True	False	4	2	CAND	CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 
@@ -12766,7 +12766,7 @@ and	True	False	True	3	1	NOT_CAND	NOT_CAND
 listening	True	False	True	9	3	NOT_CAND	NOT_CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
-weeknd	True	True	False	6	2	CAND	CAND
+weeknd	True	True	False	6	2	CAND	NOT_CAND
 in	True	False	True	2	1	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 washroom	True	False	True	8	3	NOT_CAND	NOT_CAND
@@ -12907,7 +12907,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 yes	True	False	True	3	1	NOT_CAND	NOT_CAND
 im	True	True	False	2	1	CAND	CAND
 at	True	False	True	2	1	NOT_CAND	NOT_CAND
-carters	True	True	True	7	2	NOT_CAND	CAND
+carters	True	True	True	7	2	NOT_CAND	NOT_CAND
 party	True	False	True	5	1	NOT_CAND	NOT_CAND
 yes	True	False	True	3	1	NOT_CAND	NOT_CAND
 im	True	True	False	2	1	CAND	CAND
@@ -12917,7 +12917,7 @@ outside	True	False	True	7	4	NOT_CAND	NOT_CAND
 females	True	False	True	7	3	NOT_CAND	NOT_CAND
 think	True	False	True	5	1	NOT_CAND	NOT_CAND
 they	True	False	True	4	1	NOT_CAND	NOT_CAND
-playa	True	True	True	5	2	NOT_CAND	CAND
+playa	True	True	True	5	2	NOT_CAND	NOT_CAND
 cuz	True	True	False	3	1	CAND	CAND
 they	True	False	True	4	1	NOT_CAND	NOT_CAND
 fuckin	True	True	False	6	2	CAND	CAND
@@ -12930,7 +12930,7 @@ bitch	True	False	True	5	1	NOT_CAND	NOT_CAND
 u	True	True	True	1	1	CAND	CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
 hoe	True	True	True	3	2	NOT_CAND	NOT_CAND
-thot	True	True	False	4	1	NOT_CAND	CAND
+thot	True	True	False	4	1	NOT_CAND	NOT_CAND
 ass	True	False	True	3	1	NOT_CAND	NOT_CAND
 
 @selectacornetto	False	False	False	16	6	NOT_CAND	NOT_CAND
@@ -13142,7 +13142,7 @@ through	True	False	True	7	2	NOT_CAND	NOT_CAND
 
 ig	True	True	False	2	1	CAND	CAND
 ima	True	True	False	3	2	CAND	CAND
-c	True	True	True	1	0	CAND	NOT_CAND
+c	True	True	True	1	0	CAND	CAND
 her	True	False	True	3	1	NOT_CAND	NOT_CAND
 afta	True	True	False	4	2	CAND	CAND
 practice	True	False	True	8	3	NOT_CAND	NOT_CAND
@@ -13168,7 +13168,7 @@ outside	True	False	True	7	4	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 body	True	False	True	4	1	NOT_CAND	NOT_CAND
 (	False	False	False	1	0	NOT_CAND	NOT_CAND
-tes	True	True	False	3	1	CAND	NOT_CAND
+tes	True	True	False	3	1	CAND	CAND
 t-t	False	False	False	3	0	NOT_CAND	NOT_CAND
 ube	True	False	False	3	2	NOT_CAND	NOT_CAND
 not	True	False	True	3	1	NOT_CAND	NOT_CAND
@@ -13179,7 +13179,7 @@ breff	True	False	False	5	1	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 nassim	True	False	False	6	2	NOT_CAND	NOT_CAND
 samate	True	False	False	6	3	NOT_CAND	NOT_CAND
-pro	True	True	True	3	1	NOT_CAND	CAND
+pro	True	True	True	3	1	NOT_CAND	NOT_CAND
 number	True	False	True	6	2	NOT_CAND	NOT_CAND
 one	True	False	True	3	2	NOT_CAND	NOT_CAND
 !!!	False	False	False	3	0	NOT_CAND	NOT_CAND
@@ -13208,7 +13208,7 @@ http://t.co/yl0mteol1y	False	False	False	22	3	NOT_CAND	NOT_CAND
 #7	False	False	False	2	0	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 sodo	True	False	False	4	2	NOT_CAND	NOT_CAND
-tek	True	True	False	3	1	NOT_CAND	CAND
+tek	True	True	False	3	1	NOT_CAND	NOT_CAND
 tm	True	False	False	2	0	NOT_CAND	NOT_CAND
 6	True	False	False	1	0	NOT_CAND	NOT_CAND
 ft	True	True	True	2	0	NOT_CAND	NOT_CAND
@@ -13229,7 +13229,7 @@ lcd	True	False	False	3	0	NOT_CAND	NOT_CAND
 monitor	True	False	True	7	3	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 sodo	True	False	False	4	2	NOT_CAND	NOT_CAND
-tek	True	True	False	3	1	NOT_CAND	CAND
+tek	True	True	False	3	1	NOT_CAND	NOT_CAND
 tm	True	False	False	2	0	NOT_CAND	NOT_CAND
 6	True	False	False	1	0	NOT_CAND	NOT_CAND
 ft	True	True	True	2	0	NOT_CAND	NOT_CAND
@@ -13382,7 +13382,7 @@ burn's	True	False	True	6	1	NOT_CAND	NOT_CAND
 dj	True	False	False	2	0	NOT_CAND	NOT_CAND
 lab	True	False	True	3	1	NOT_CAND	NOT_CAND
 '	False	False	False	1	0	NOT_CAND	NOT_CAND
-ep	True	True	False	2	1	NOT_CAND	CAND
+ep	True	True	False	2	1	NOT_CAND	NOT_CAND
 ...	False	False	False	3	0	NOT_CAND	NOT_CAND
 hot	True	False	True	3	1	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -13398,7 +13398,7 @@ a	True	True	True	1	1	NOT_CAND	NOT_CAND
 trip	True	False	True	4	1	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 
-byyeee	True	True	False	6	3	CAND	CAND
+byyeee	True	True	False	6	3	CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 last	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -13406,7 +13406,7 @@ of	True	False	True	2	1	NOT_CAND	NOT_CAND
 shuggiee	True	False	False	8	4	NOT_CAND	NOT_CAND
 heree	True	True	False	5	3	CAND	CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
-fr	True	True	True	2	0	CAND	CAND
+fr	True	True	True	2	0	CAND	NOT_CAND
 fr	True	True	True	2	0	CAND	CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 
@@ -13432,7 +13432,7 @@ like	True	False	True	4	2	NOT_CAND	NOT_CAND
 y'all	True	False	True	5	1	NOT_CAND	NOT_CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
 play	True	False	True	4	1	NOT_CAND	NOT_CAND
-nicki	True	True	False	5	2	NOT_CAND	CAND
+nicki	True	True	False	5	2	NOT_CAND	NOT_CAND
 minaj's	True	False	False	7	2	NOT_CAND	NOT_CAND
 '	False	False	False	1	0	NOT_CAND	NOT_CAND
 pills	True	False	True	5	1	NOT_CAND	NOT_CAND
@@ -13670,7 +13670,7 @@ support	True	False	True	7	2	NOT_CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 creativity	True	False	True	10	4	NOT_CAND	NOT_CAND
 and	True	False	True	3	1	NOT_CAND	NOT_CAND
-transforma	True	True	False	10	3	CAND	NOT_CAND
+transforma	True	True	False	10	3	CAND	CAND
 ...	False	False	False	3	0	NOT_CAND	NOT_CAND
 http://t.co/0ifxtwf9iz	False	False	False	22	3	NOT_CAND	NOT_CAND
 
@@ -13862,7 +13862,7 @@ it	True	False	True	2	1	NOT_CAND	NOT_CAND
 as	True	False	True	2	1	NOT_CAND	NOT_CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
 free	True	False	True	4	2	NOT_CAND	NOT_CAND
-ebook	True	True	False	5	3	NOT_CAND	CAND
+ebook	True	True	False	5	3	NOT_CAND	NOT_CAND
 
 @sm1th_casey	False	False	False	12	2	NOT_CAND	NOT_CAND
 that's	True	False	True	6	1	NOT_CAND	NOT_CAND
@@ -14079,7 +14079,7 @@ na	True	True	False	2	1	CAND	NOT_CAND
 only	True	False	True	4	1	NOT_CAND	NOT_CAND
 u	True	True	True	1	1	CAND	CAND
 waka	True	True	False	4	2	CAND	CAND
-cum	True	True	True	3	1	CAND	CAND
+cum	True	True	True	3	1	CAND	NOT_CAND
 ???	False	False	False	3	0	NOT_CAND	NOT_CAND
 "	False	False	False	1	0	NOT_CAND	NOT_CAND
 noooo	True	True	False	5	4	CAND	CAND
@@ -14151,7 +14151,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @ustazazharldrus	False	False	False	16	5	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 bola	True	False	True	4	2	NOT_CAND	NOT_CAND
-tak	True	True	False	3	1	NOT_CAND	CAND
+tak	True	True	False	3	1	NOT_CAND	NOT_CAND
 bola	True	False	True	4	2	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 solat	True	False	False	5	2	NOT_CAND	NOT_CAND
@@ -14294,7 +14294,7 @@ many	True	False	True	4	1	NOT_CAND	NOT_CAND
 tvders	True	False	False	6	1	NOT_CAND	NOT_CAND
 ship	True	False	True	4	1	NOT_CAND	NOT_CAND
 stelena	True	False	False	7	3	NOT_CAND	NOT_CAND
-rt	True	True	True	2	0	CAND	NOT_CAND
+rt	True	True	True	2	0	CAND	CAND
 if	True	False	True	2	1	NOT_CAND	NOT_CAND
 u	True	True	True	1	1	CAND	CAND
 ship	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -14686,7 +14686,7 @@ foreal	True	False	False	6	3	CAND	NOT_CAND
 settin	True	True	False	6	2	CAND	CAND
 guidelines	True	False	True	10	5	NOT_CAND	NOT_CAND
 in	True	False	True	2	1	NOT_CAND	NOT_CAND
-order	True	True	True	5	2	NOT_CAND	CAND
+order	True	True	True	5	2	NOT_CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -15447,7 +15447,7 @@ goon	True	False	True	4	2	NOT_CAND	NOT_CAND
 
 @realmadridhouse	False	False	False	16	7	NOT_CAND	NOT_CAND
 @cr7support	False	False	False	11	2	NOT_CAND	NOT_CAND
-yupp	True	True	False	4	1	NOT_CAND	NOT_CAND
+yupp	True	True	False	4	1	NOT_CAND	CAND
 !!	False	False	False	2	0	NOT_CAND	NOT_CAND
 its	True	True	True	3	1	CAND	NOT_CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
@@ -15806,7 +15806,7 @@ not	True	False	True	3	1	NOT_CAND	NOT_CAND
 even	True	False	True	4	2	NOT_CAND	NOT_CAND
 graduate!':	False	False	False	11	4	NOT_CAND	NOT_CAND
 ajay	True	False	False	4	2	NOT_CAND	NOT_CAND
-maken	True	True	False	5	2	NOT_CAND	CAND
+maken	True	True	False	5	2	NOT_CAND	NOT_CAND
 http://t.co/0ls8qd1i3p	False	False	False	22	2	NOT_CAND	NOT_CAND
 via	True	False	True	3	2	NOT_CAND	NOT_CAND
 @ndtv	False	False	False	5	0	NOT_CAND	NOT_CAND
@@ -15883,7 +15883,7 @@ to	True	False	True	2	1	NOT_CAND	NOT_CAND
 go	True	False	True	2	1	NOT_CAND	NOT_CAND
 work	True	False	True	4	1	NOT_CAND	NOT_CAND
 at	True	False	True	2	1	NOT_CAND	NOT_CAND
-mcdonalds	True	True	False	9	2	NOT_CAND	CAND
+mcdonalds	True	True	False	9	2	NOT_CAND	NOT_CAND
 fkn	True	True	False	3	0	CAND	CAND
 restaurant	True	False	True	10	4	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -16188,7 +16188,7 @@ some	True	False	True	4	2	NOT_CAND	NOT_CAND
 that	True	False	True	4	1	NOT_CAND	NOT_CAND
 can	True	False	True	3	1	NOT_CAND	NOT_CAND
 make	True	False	True	4	2	NOT_CAND	NOT_CAND
-em	True	True	True	2	1	CAND	CAND
+em	True	True	True	2	1	CAND	NOT_CAND
 not	True	False	True	3	1	NOT_CAND	NOT_CAND
 explode	True	False	True	7	3	NOT_CAND	NOT_CAND
 
@@ -16325,7 +16325,7 @@ fear	True	False	True	4	2	NOT_CAND	NOT_CAND
 is	True	False	True	2	1	NOT_CAND	NOT_CAND
 getting	True	False	True	7	2	NOT_CAND	NOT_CAND
 caught	True	False	True	6	2	NOT_CAND	NOT_CAND
-masturbatin	True	True	False	11	4	CAND	CAND
+masturbatin	True	True	False	11	4	CAND	NOT_CAND
 by	True	False	True	2	0	NOT_CAND	NOT_CAND
 their	True	False	True	5	2	NOT_CAND	NOT_CAND
 parents	True	False	True	7	2	NOT_CAND	NOT_CAND
@@ -16417,7 +16417,7 @@ tweetdeck	True	False	False	9	3	NOT_CAND	NOT_CAND
 lol	True	True	False	3	1	CAND	CAND
 he's	True	False	True	4	1	NOT_CAND	NOT_CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
-g	True	True	True	1	0	NOT_CAND	CAND
+g	True	True	True	1	0	NOT_CAND	NOT_CAND
 "	False	False	False	1	0	NOT_CAND	NOT_CAND
 @bongzthamr_k	False	False	False	13	2	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -16447,7 +16447,7 @@ thanx	True	True	False	5	1	CAND	CAND
 michael	True	False	False	7	3	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 you	True	False	True	3	2	NOT_CAND	NOT_CAND
-realy	True	True	False	5	2	NOT_CAND	CAND
+realy	True	True	False	5	2	NOT_CAND	NOT_CAND
 right	True	False	True	5	1	NOT_CAND	NOT_CAND
 ...	False	False	False	3	0	NOT_CAND	NOT_CAND
 ppl	True	True	False	3	0	CAND	CAND
@@ -16756,7 +16756,7 @@ concert	True	False	True	7	2	NOT_CAND	NOT_CAND
 in	True	False	True	2	1	NOT_CAND	NOT_CAND
 hk	True	True	False	2	0	CAND	CAND
 standing	True	False	True	8	2	NOT_CAND	NOT_CAND
-d	True	True	True	1	0	NOT_CAND	CAND
+d	True	True	True	1	0	NOT_CAND	NOT_CAND
 at	True	False	True	2	1	NOT_CAND	NOT_CAND
 original	True	False	True	8	4	NOT_CAND	NOT_CAND
 price	True	False	True	5	2	NOT_CAND	NOT_CAND
@@ -16986,7 +16986,7 @@ and	True	False	True	3	1	NOT_CAND	NOT_CAND
 my	True	False	True	2	0	NOT_CAND	NOT_CAND
 mom	True	False	True	3	1	NOT_CAND	NOT_CAND
 saw	True	False	True	3	1	NOT_CAND	NOT_CAND
-opps	True	True	False	4	1	NOT_CAND	CAND
+opps	True	True	False	4	1	NOT_CAND	NOT_CAND
 ?	False	False	False	1	0	NOT_CAND	NOT_CAND
 
 @swagstuna1	False	False	False	11	3	NOT_CAND	NOT_CAND
@@ -17137,7 +17137,7 @@ may	True	False	True	3	1	NOT_CAND	NOT_CAND
 
 @cassmazz	False	False	False	9	2	NOT_CAND	NOT_CAND
 lol	True	True	False	3	1	CAND	CAND
-y	True	True	True	1	0	CAND	CAND
+y	True	True	True	1	0	CAND	NOT_CAND
 is	True	False	True	2	1	NOT_CAND	NOT_CAND
 it	True	False	True	2	1	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -17217,7 +17217,7 @@ nigga	True	True	False	5	2	CAND	CAND
 dave	True	False	False	4	2	NOT_CAND	NOT_CAND
 playlist	True	False	False	8	2	NOT_CAND	NOT_CAND
 shitty	True	False	True	6	1	NOT_CAND	NOT_CAND
-af	True	True	False	2	1	CAND	NOT_CAND
+af	True	True	False	2	1	CAND	CAND
 
 well	True	False	True	4	1	NOT_CAND	NOT_CAND
 blast	True	False	True	5	1	NOT_CAND	NOT_CAND
@@ -17260,7 +17260,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 niall	True	False	False	5	2	NOT_CAND	NOT_CAND
 and	True	False	True	3	1	NOT_CAND	NOT_CAND
 liams	True	False	False	5	2	NOT_CAND	NOT_CAND
-mum	True	True	True	3	1	CAND	CAND
+mum	True	True	True	3	1	CAND	NOT_CAND
 were	True	True	True	4	2	NOT_CAND	NOT_CAND
 cheering	True	False	True	8	3	NOT_CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
@@ -17301,7 +17301,7 @@ a	True	True	True	1	1	NOT_CAND	NOT_CAND
 playlist	True	False	False	8	2	NOT_CAND	NOT_CAND
 http://t.co/nontwpx2ih	False	False	False	22	3	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
-haymarket	True	True	False	9	3	NOT_CAND	NOT_CAND
+haymarket	True	True	False	9	3	NOT_CAND	CAND
 theatre	True	True	False	7	3	CAND	CAND
 -	False	False	False	1	0	NOT_CAND	NOT_CAND
 give	True	False	True	4	2	NOT_CAND	NOT_CAND
@@ -17351,7 +17351,7 @@ im	True	True	False	2	1	CAND	CAND
 just	True	False	True	4	1	NOT_CAND	NOT_CAND
 messing	True	False	True	7	2	NOT_CAND	NOT_CAND
 with	True	False	True	4	1	NOT_CAND	NOT_CAND
-ya	True	True	True	2	1	CAND	NOT_CAND
+ya	True	True	True	2	1	CAND	CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 if	True	False	True	2	1	NOT_CAND	NOT_CAND
 we	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -17489,7 +17489,7 @@ necklace	True	False	True	8	3	NOT_CAND	NOT_CAND
 set	True	False	True	3	1	NOT_CAND	NOT_CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
 krafty	True	False	False	6	1	NOT_CAND	NOT_CAND
-max	True	True	True	3	1	NOT_CAND	CAND
+max	True	True	True	3	1	NOT_CAND	NOT_CAND
 original	True	False	True	8	4	NOT_CAND	NOT_CAND
 #design	False	False	False	7	2	NOT_CAND	NOT_CAND
 http://t.co/mnppikbbvr	False	False	False	22	2	NOT_CAND	NOT_CAND
@@ -17741,7 +17741,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 just	True	False	True	4	1	NOT_CAND	NOT_CAND
 passed	True	False	True	6	2	NOT_CAND	NOT_CAND
 kung	True	False	False	4	1	NOT_CAND	NOT_CAND
-fu	True	True	False	2	1	NOT_CAND	CAND
+fu	True	True	False	2	1	NOT_CAND	NOT_CAND
 and	True	False	True	3	1	NOT_CAND	NOT_CAND
 it's	True	False	True	4	1	NOT_CAND	NOT_CAND
 dead	True	False	True	4	2	NOT_CAND	NOT_CAND
@@ -17989,7 +17989,7 @@ i	True	True	True	1	1	NOT_CAND	NOT_CAND
 know	True	False	True	4	1	NOT_CAND	NOT_CAND
 this	True	False	True	4	1	NOT_CAND	NOT_CAND
 doujin	True	False	False	6	3	NOT_CAND	NOT_CAND
-aa	True	True	True	2	2	NOT_CAND	NOT_CAND
+aa	True	True	True	2	2	NOT_CAND	CAND
 its	True	True	True	3	1	NOT_CAND	NOT_CAND
 one	True	False	True	3	2	NOT_CAND	NOT_CAND
 of	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -18164,7 +18164,7 @@ x	True	False	True	1	0	NOT_CAND	NOT_CAND
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @blackmathnerd	False	False	False	14	3	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
-simeone	True	True	False	7	4	NOT_CAND	CAND
+simeone	True	True	False	7	4	NOT_CAND	NOT_CAND
 gonna	True	False	True	5	2	NOT_CAND	NOT_CAND
 square	True	False	True	6	3	NOT_CAND	NOT_CAND
 up	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -18236,7 +18236,7 @@ positive	True	False	True	8	4	NOT_CAND	NOT_CAND
 things	True	False	True	6	1	NOT_CAND	NOT_CAND
 about	True	False	True	5	3	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
-heh	True	True	False	3	1	NOT_CAND	CAND
+heh	True	True	False	3	1	NOT_CAND	NOT_CAND
 (	False	False	False	1	0	NOT_CAND	NOT_CAND
 have	True	False	True	4	2	NOT_CAND	NOT_CAND
 heard	True	False	True	5	2	NOT_CAND	NOT_CAND
@@ -18856,7 +18856,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @knockknock0408	False	False	False	15	2	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 [	False	False	False	1	0	NOT_CAND	NOT_CAND
-dl	True	True	False	2	0	NOT_CAND	CAND
+dl	True	True	False	2	0	NOT_CAND	NOT_CAND
 ]	False	False	False	1	0	NOT_CAND	NOT_CAND
 140525	True	False	False	6	0	NOT_CAND	NOT_CAND
 baekhyun	True	False	False	8	3	NOT_CAND	NOT_CAND
@@ -18949,7 +18949,7 @@ hannan	True	False	False	6	2	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 nirj	True	False	False	4	1	NOT_CAND	NOT_CAND
 deva	True	False	True	4	2	NOT_CAND	NOT_CAND
-dl	True	True	False	2	0	NOT_CAND	CAND
+dl	True	True	False	2	0	NOT_CAND	NOT_CAND
 mep	True	True	False	3	1	NOT_CAND	CAND
 richard	True	False	False	7	2	NOT_CAND	NOT_CAND
 ashworth	True	False	False	8	2	NOT_CAND	NOT_CAND
@@ -19129,7 +19129,7 @@ got	True	False	True	3	1	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 feelin	True	True	False	6	3	CAND	CAND
 extra	True	False	True	5	2	NOT_CAND	NOT_CAND
-lightskin	True	False	False	9	2	CAND	NOT_CAND
+lightskin	True	False	False	9	2	CAND	CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 no	True	True	True	2	1	NOT_CAND	NOT_CAND
 reason	True	False	True	6	3	NOT_CAND	NOT_CAND
@@ -19257,7 +19257,7 @@ yay	True	False	False	3	1	NOT_CAND	NOT_CAND
 traffic	True	False	True	7	2	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
 mbs	True	False	False	3	0	NOT_CAND	NOT_CAND
-rd	True	True	True	2	0	NOT_CAND	CAND
+rd	True	True	True	2	0	NOT_CAND	NOT_CAND
 heading	True	False	True	7	3	NOT_CAND	NOT_CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
 airport	True	False	True	7	3	NOT_CAND	NOT_CAND
@@ -19327,7 +19327,7 @@ all	True	False	True	3	1	NOT_CAND	NOT_CAND
 14million	True	False	False	9	3	CAND	NOT_CAND
 of	True	False	True	2	1	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
-taylors	True	True	False	7	2	NOT_CAND	NOT_CAND
+taylors	True	True	False	7	2	NOT_CAND	CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 -trap	False	False	False	5	1	NOT_CAND	NOT_CAND
 wiz	True	False	True	3	1	NOT_CAND	NOT_CAND
@@ -19801,7 +19801,7 @@ hahah	True	False	False	5	2	NOT_CAND	NOT_CAND
 
 praise	True	False	True	6	3	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
-lordt	True	True	False	5	1	NOT_CAND	NOT_CAND
+lordt	True	True	False	5	1	NOT_CAND	CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 @	False	False	False	1	0	NOT_CAND	NOT_CAND
 glazed	True	False	True	6	2	NOT_CAND	NOT_CAND
@@ -19832,7 +19832,7 @@ n	True	True	True	1	0	CAND	CAND
 trust	True	False	True	5	1	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 fg	True	False	False	2	0	NOT_CAND	NOT_CAND
-cud	True	True	True	3	1	NOT_CAND	CAND
+cud	True	True	True	3	1	NOT_CAND	NOT_CAND
 be	True	True	True	2	1	NOT_CAND	NOT_CAND
 bh	True	False	False	2	0	NOT_CAND	NOT_CAND
 
@@ -19916,7 +19916,7 @@ me	True	False	True	2	1	NOT_CAND	NOT_CAND
 puedo	True	False	False	5	3	NOT_CAND	NOT_CAND
 tatuar	True	False	False	6	3	NOT_CAND	NOT_CAND
 esto	True	False	False	4	2	NOT_CAND	NOT_CAND
-en	True	True	True	2	1	NOT_CAND	CAND
+en	True	True	True	2	1	NOT_CAND	NOT_CAND
 la	True	False	True	2	1	NOT_CAND	NOT_CAND
 frente	True	False	False	6	2	NOT_CAND	NOT_CAND
 gracias	True	False	False	7	3	NOT_CAND	NOT_CAND
@@ -20080,7 +20080,7 @@ i	True	True	True	1	1	NOT_CAND	NOT_CAND
 thought	True	False	True	7	2	NOT_CAND	NOT_CAND
 you	True	False	True	3	2	NOT_CAND	NOT_CAND
 were	True	True	True	4	2	NOT_CAND	NOT_CAND
-gunna	True	False	False	5	2	CAND	NOT_CAND
+gunna	True	False	False	5	2	CAND	CAND
 say	True	False	True	3	1	NOT_CAND	NOT_CAND
 scarlett	True	True	False	8	2	NOT_CAND	CAND
 or	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -20217,7 +20217,7 @@ hrs	True	True	True	3	0	NOT_CAND	CAND
 mins	True	True	False	4	1	CAND	CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 27	True	False	False	2	0	NOT_CAND	NOT_CAND
-secs	True	True	True	4	1	CAND	CAND
+secs	True	True	True	4	1	CAND	NOT_CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @5saucingniall	False	False	False	14	5	NOT_CAND	NOT_CAND
@@ -20360,7 +20360,7 @@ are	True	False	True	3	2	NOT_CAND	NOT_CAND
 just	True	False	True	4	1	NOT_CAND	NOT_CAND
 stretched	True	False	True	9	2	NOT_CAND	NOT_CAND
 out	True	False	True	3	2	NOT_CAND	NOT_CAND
-iphones	True	True	False	7	3	NOT_CAND	CAND
+iphones	True	True	False	7	3	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 same	True	False	True	4	2	NOT_CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
@@ -20804,7 +20804,7 @@ tumblr	True	True	False	6	1	NOT_CAND	CAND
 i'm	True	False	False	3	1	NOT_CAND	NOT_CAND
 in	True	False	True	2	1	NOT_CAND	NOT_CAND
 love	True	False	True	4	2	NOT_CAND	NOT_CAND
-w	True	True	True	1	0	CAND	NOT_CAND
+w	True	True	True	1	0	CAND	CAND
 it	True	False	True	2	1	NOT_CAND	NOT_CAND
 
 read	True	False	True	4	2	NOT_CAND	NOT_CAND
@@ -21002,7 +21002,7 @@ citizen	True	False	True	7	3	NOT_CAND	NOT_CAND
 dont	True	True	False	4	1	CAND	CAND
 be	True	True	True	2	1	NOT_CAND	NOT_CAND
 so	True	False	True	2	1	NOT_CAND	NOT_CAND
-judgemental	True	True	False	11	4	CAND	NOT_CAND
+judgemental	True	True	False	11	4	CAND	CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
@@ -21160,7 +21160,7 @@ yu	True	True	False	2	1	CAND	CAND
 like	True	False	True	4	2	NOT_CAND	NOT_CAND
 yu	True	True	False	2	1	CAND	CAND
 stole	True	False	True	5	2	NOT_CAND	NOT_CAND
-sum	True	True	True	3	1	NOT_CAND	CAND
+sum	True	True	True	3	1	NOT_CAND	NOT_CAND
 ...	False	False	False	3	0	NOT_CAND	NOT_CAND
 #300	False	False	False	4	0	NOT_CAND	NOT_CAND
 
@@ -21371,7 +21371,7 @@ follow	True	False	True	6	2	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 pls	True	True	False	3	0	CAND	CAND
 lysm	True	False	False	4	0	CAND	NOT_CAND
-babe	True	True	True	4	2	NOT_CAND	CAND
+babe	True	True	True	4	2	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 #wesisfollowinpeeps	False	False	False	19	7	NOT_CAND	NOT_CAND
 23	True	False	False	2	0	NOT_CAND	NOT_CAND
@@ -21546,7 +21546,7 @@ proto	True	False	False	5	2	NOT_CAND	NOT_CAND
 series	True	False	True	6	3	NOT_CAND	NOT_CAND
 m3	True	True	False	2	0	NOT_CAND	CAND
 midrangeby	True	False	False	10	3	NOT_CAND	NOT_CAND
-pro	True	True	True	3	1	NOT_CAND	CAND
+pro	True	True	True	3	1	NOT_CAND	NOT_CAND
 ...	False	False	False	3	0	NOT_CAND	NOT_CAND
 http://t.co/arxmsidpsj	False	False	False	22	3	NOT_CAND	NOT_CAND
 
@@ -21607,7 +21607,7 @@ d	True	True	True	1	0	CAND	CAND
 with	True	False	True	4	1	NOT_CAND	NOT_CAND
 tha	True	True	False	3	1	CAND	CAND
 real	True	False	True	4	2	NOT_CAND	NOT_CAND
-skillz	True	True	False	6	1	CAND	CAND
+skillz	True	True	False	6	1	CAND	NOT_CAND
 (	False	False	False	1	0	NOT_CAND	NOT_CAND
 @skillz_unilagfm	False	False	False	16	4	NOT_CAND	NOT_CAND
 )	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -21771,7 +21771,7 @@ about	True	False	True	5	3	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 just	True	False	True	4	1	NOT_CAND	NOT_CAND
-incase	True	False	False	6	3	CAND	NOT_CAND
+incase	True	False	False	6	3	CAND	CAND
 i	True	True	True	1	1	NOT_CAND	NOT_CAND
 forget	True	False	True	6	2	NOT_CAND	NOT_CAND
 '	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -22170,7 +22170,7 @@ demi	True	False	False	4	2	NOT_CAND	NOT_CAND
 being	True	False	True	5	2	NOT_CAND	NOT_CAND
 promoted	True	False	True	8	3	NOT_CAND	NOT_CAND
 by	True	False	True	2	0	NOT_CAND	NOT_CAND
-mcdonalds	True	True	False	9	2	NOT_CAND	CAND
+mcdonalds	True	True	False	9	2	NOT_CAND	NOT_CAND
 http://t.co/tcs9kj0c74	False	False	False	22	1	NOT_CAND	NOT_CAND
 
 @iamtanyacarter	False	False	False	15	6	NOT_CAND	NOT_CAND
@@ -22255,12 +22255,12 @@ to	True	False	True	2	1	NOT_CAND	NOT_CAND
 please	True	False	True	6	3	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 <3	False	False	False	2	0	NOT_CAND	NOT_CAND
-x35	True	False	False	3	0	NOT_CAND	NOT_CAND
+x35	True	False	False	3	0	NOT_CAND	CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @lipringniall	False	False	False	13	4	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
-rt	True	True	True	2	0	CAND	CAND
+rt	True	True	True	2	0	CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 an	True	False	True	2	1	NOT_CAND	NOT_CAND
 indirect	True	False	True	8	3	NOT_CAND	NOT_CAND
@@ -22510,7 +22510,7 @@ http://t.co/lw0pvjkifm	False	False	False	22	2	NOT_CAND	NOT_CAND
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @cristina5sos	False	False	False	13	4	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
-rt	True	True	True	2	0	NOT_CAND	CAND
+rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
 dm	True	True	True	2	0	CAND	CAND
@@ -22529,7 +22529,7 @@ know	True	False	True	4	1	NOT_CAND	NOT_CAND
 i	True	True	True	1	1	NOT_CAND	NOT_CAND
 still	True	False	True	5	1	NOT_CAND	NOT_CAND
 exist	True	False	True	5	2	NOT_CAND	NOT_CAND
-wowowowow	True	True	False	9	4	NOT_CAND	NOT_CAND
+wowowowow	True	True	False	9	4	NOT_CAND	CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @almightymatty	False	False	False	14	3	NOT_CAND	NOT_CAND
@@ -22715,7 +22715,7 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 #openfollow	False	False	False	11	4	NOT_CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 kpopers	True	False	False	7	2	NOT_CAND	NOT_CAND
-esp	True	True	True	3	1	NOT_CAND	NOT_CAND
+esp	True	True	True	3	1	NOT_CAND	CAND
 lee	True	False	True	3	2	NOT_CAND	NOT_CAND
 hyukjae	True	False	False	7	3	NOT_CAND	NOT_CAND
 biased	True	False	True	6	3	NOT_CAND	NOT_CAND
@@ -22801,7 +22801,7 @@ yeh	True	True	False	3	1	NOT_CAND	CAND
 ....	False	False	False	4	0	NOT_CAND	NOT_CAND
 madrid	True	False	False	6	2	NOT_CAND	NOT_CAND
 won	True	False	True	3	1	CAND	NOT_CAND
-d	True	True	True	1	0	NOT_CAND	CAND
+d	True	True	True	1	0	NOT_CAND	NOT_CAND
 champions	True	False	True	9	3	NOT_CAND	NOT_CAND
 league	True	False	True	6	4	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -22886,7 +22886,7 @@ business	True	False	True	8	3	NOT_CAND	NOT_CAND
 not	True	False	True	3	1	NOT_CAND	NOT_CAND
 yet	True	False	True	3	1	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
-2nd	True	True	False	3	0	NOT_CAND	CAND
+2nd	True	True	False	3	0	NOT_CAND	NOT_CAND
 june	True	False	False	4	2	NOT_CAND	NOT_CAND
 baru	True	False	False	4	2	NOT_CAND	NOT_CAND
 start	True	False	True	5	1	NOT_CAND	NOT_CAND
@@ -22923,7 +22923,7 @@ of	True	False	True	2	1	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 video:')	False	False	False	8	3	NOT_CAND	NOT_CAND
 
-inspite	True	True	False	7	3	CAND	NOT_CAND
+inspite	True	True	False	7	3	CAND	CAND
 of	True	False	True	2	1	NOT_CAND	NOT_CAND
 poor	True	False	True	4	2	NOT_CAND	NOT_CAND
 show	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -23071,7 +23071,7 @@ luhan	True	False	False	5	2	NOT_CAND	NOT_CAND
 *	False	False	False	1	0	NOT_CAND	NOT_CAND
 #lostplanetinseoul	False	False	False	18	7	NOT_CAND	NOT_CAND
 
-ya	True	True	True	2	1	NOT_CAND	NOT_CAND
+ya	True	True	True	2	1	NOT_CAND	CAND
 lil	True	True	False	3	1	CAND	CAND
 attitude	True	False	True	8	4	NOT_CAND	NOT_CAND
 prolly	True	True	False	6	1	CAND	CAND
@@ -23217,7 +23217,7 @@ n	True	True	True	1	0	CAND	CAND
 shake	True	False	True	5	2	NOT_CAND	NOT_CAND
 your	True	False	True	4	2	NOT_CAND	NOT_CAND
 body	True	False	True	4	1	NOT_CAND	NOT_CAND
-yoo	True	True	False	3	2	CAND	CAND
+yoo	True	True	False	3	2	CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 wkwkwk	True	False	False	6	0	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -23266,7 +23266,7 @@ indonesia	True	False	False	9	5	NOT_CAND	NOT_CAND
 http://t.co/7tcen2mjcw	False	False	False	22	2	NOT_CAND	NOT_CAND
 
 mg	True	False	True	2	0	NOT_CAND	NOT_CAND
-y	True	True	True	1	0	NOT_CAND	CAND
+y	True	True	True	1	0	NOT_CAND	NOT_CAND
 te	True	False	False	2	1	NOT_CAND	NOT_CAND
 habloo	True	False	False	6	3	NOT_CAND	NOT_CAND
 <3	False	False	False	2	0	NOT_CAND	NOT_CAND
@@ -23414,7 +23414,7 @@ http://t.co/glmz6nuzik	False	False	False	22	3	NOT_CAND	NOT_CAND
 anahi	True	False	False	5	3	NOT_CAND	NOT_CAND
 entrevista	True	False	False	10	4	NOT_CAND	NOT_CAND
 depois	True	False	False	6	3	NOT_CAND	NOT_CAND
-d	True	True	True	1	0	NOT_CAND	CAND
+d	True	True	True	1	0	NOT_CAND	NOT_CAND
 anorexia	True	False	True	8	5	NOT_CAND	NOT_CAND
 2002	True	False	False	4	0	NOT_CAND	NOT_CAND
 -	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -23429,7 +23429,7 @@ him	True	False	True	3	1	NOT_CAND	NOT_CAND
 ?	False	False	False	1	0	NOT_CAND	NOT_CAND
 yadier	True	False	False	6	3	NOT_CAND	NOT_CAND
 your	True	False	True	4	2	NOT_CAND	NOT_CAND
-freakin	True	True	False	7	3	CAND	NOT_CAND
+freakin	True	True	False	7	3	CAND	CAND
 mind	True	False	True	4	1	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 #stlcards	False	False	False	9	1	NOT_CAND	NOT_CAND
@@ -23636,7 +23636,7 @@ about	True	False	True	5	3	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 just	True	False	True	4	1	NOT_CAND	NOT_CAND
-incase	True	False	False	6	3	CAND	NOT_CAND
+incase	True	False	False	6	3	CAND	CAND
 i	True	True	True	1	1	NOT_CAND	NOT_CAND
 forget	True	False	True	6	2	NOT_CAND	NOT_CAND
 '	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -23762,7 +23762,7 @@ it	True	False	True	2	1	NOT_CAND	NOT_CAND
 but	True	False	True	3	1	NOT_CAND	NOT_CAND
 ima	True	True	False	3	2	CAND	CAND
 retweet	True	False	False	7	3	NOT_CAND	NOT_CAND
-em	True	True	True	2	1	CAND	CAND
+em	True	True	True	2	1	CAND	NOT_CAND
 from	True	False	True	4	1	NOT_CAND	NOT_CAND
 now	True	False	True	3	1	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -23971,7 +23971,7 @@ sm	True	True	False	2	0	NOT_CAND	NOT_CAND
 lucena	True	False	False	6	3	NOT_CAND	NOT_CAND
 mallshow	True	False	False	8	2	NOT_CAND	NOT_CAND
 ||	False	False	False	2	0	NOT_CAND	NOT_CAND
-y	True	True	True	1	0	NOT_CAND	CAND
+y	True	True	True	1	0	NOT_CAND	NOT_CAND
 
 couple	True	False	True	6	3	NOT_CAND	NOT_CAND
 died	True	False	True	4	2	NOT_CAND	NOT_CAND
@@ -24050,7 +24050,7 @@ about	True	False	True	5	3	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 just	True	False	True	4	1	NOT_CAND	NOT_CAND
-incase	True	False	False	6	3	CAND	NOT_CAND
+incase	True	False	False	6	3	CAND	CAND
 i	True	True	True	1	1	NOT_CAND	NOT_CAND
 forget	True	False	True	6	2	NOT_CAND	NOT_CAND
 '	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -24118,7 +24118,7 @@ in	True	False	True	2	1	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 back	True	False	True	4	1	NOT_CAND	NOT_CAND
 that's	True	False	True	6	1	NOT_CAND	NOT_CAND
-4	True	True	False	1	0	NOT_CAND	NOT_CAND
+4	True	True	False	1	0	NOT_CAND	CAND
 niggas	True	True	False	6	2	CAND	CAND
 riding	True	False	True	6	2	NOT_CAND	NOT_CAND
 strapped	True	False	True	8	2	NOT_CAND	NOT_CAND
@@ -24181,7 +24181,7 @@ i	True	True	True	1	1	NOT_CAND	NOT_CAND
 dont	True	True	False	4	1	CAND	CAND
 even	True	False	True	4	2	NOT_CAND	NOT_CAND
 onow	True	False	False	4	2	CAND	NOT_CAND
-whats	True	True	True	5	1	CAND	CAND
+whats	True	True	True	5	1	CAND	NOT_CAND
 happening	True	False	True	9	3	NOT_CAND	NOT_CAND
 h	True	False	True	1	0	NOT_CAND	NOT_CAND
 #haylorisback	False	False	False	13	4	NOT_CAND	NOT_CAND
@@ -24411,7 +24411,7 @@ http://t.co/cbx5toe97n	False	False	False	22	3	NOT_CAND	NOT_CAND
 amoo	True	False	False	4	3	NOT_CAND	NOT_CAND
 ver	True	False	False	3	1	NOT_CAND	NOT_CAND
 austiin	True	False	False	7	4	NOT_CAND	NOT_CAND
-y	True	True	True	1	0	NOT_CAND	CAND
+y	True	True	True	1	0	NOT_CAND	NOT_CAND
 ally	True	False	True	4	1	NOT_CAND	NOT_CAND
 *	False	False	False	1	0	NOT_CAND	NOT_CAND
 w	True	True	True	1	0	NOT_CAND	NOT_CAND
@@ -24734,7 +24734,7 @@ yaay	True	False	False	4	2	NOT_CAND	NOT_CAND
 virat	True	False	False	5	2	NOT_CAND	NOT_CAND
 ne	True	True	True	2	1	NOT_CAND	NOT_CAND
 mera	True	False	False	4	2	NOT_CAND	NOT_CAND
-sunn	True	True	True	4	1	NOT_CAND	CAND
+sunn	True	True	True	4	1	NOT_CAND	NOT_CAND
 liya	True	False	False	4	2	NOT_CAND	NOT_CAND
 hits	True	False	True	4	1	NOT_CAND	NOT_CAND
 huge	True	False	True	4	2	NOT_CAND	NOT_CAND
@@ -24886,7 +24886,7 @@ with	True	False	True	4	1	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 band	True	False	True	4	1	NOT_CAND	NOT_CAND
 mis	True	True	False	3	1	NOT_CAND	CAND
-b	True	True	True	1	0	NOT_CAND	CAND
+b	True	True	True	1	0	NOT_CAND	NOT_CAND
 '	False	False	False	1	0	NOT_CAND	NOT_CAND
 havin	True	True	False	5	2	CAND	CAND
 (	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -25012,7 +25012,7 @@ ask	True	False	True	3	1	NOT_CAND	NOT_CAND
 u	True	True	True	1	1	CAND	CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
 fuck	True	False	True	4	1	NOT_CAND	NOT_CAND
-its	True	True	True	3	1	NOT_CAND	NOT_CAND
+its	True	True	True	3	1	NOT_CAND	CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
 yes	True	False	True	3	1	NOT_CAND	NOT_CAND
 or	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -25174,7 +25174,7 @@ shoutout	True	True	False	8	4	NOT_CAND	NOT_CAND
 la	True	False	True	2	1	NOT_CAND	NOT_CAND
 @elie_kerbaj	False	False	False	12	5	NOT_CAND	NOT_CAND
 ta	True	True	True	2	1	NOT_CAND	NOT_CAND
-ma	True	True	True	2	1	NOT_CAND	CAND
+ma	True	True	True	2	1	NOT_CAND	NOT_CAND
 yebke	True	False	False	5	2	NOT_CAND	NOT_CAND
 cz	True	True	False	2	0	NOT_CAND	CAND
 3emelle	True	False	False	7	3	NOT_CAND	NOT_CAND
@@ -25590,10 +25590,10 @@ rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 bruh	True	True	False	4	1	CAND	CAND
 ...	False	False	False	3	0	NOT_CAND	NOT_CAND
-its	True	True	True	3	1	NOT_CAND	NOT_CAND
+its	True	True	True	3	1	NOT_CAND	CAND
 raining	True	False	True	7	3	NOT_CAND	NOT_CAND
 hard	True	False	True	4	1	NOT_CAND	NOT_CAND
-asf	True	True	False	3	1	CAND	CAND
+asf	True	True	False	3	1	CAND	NOT_CAND
 
 @gordonramsay	False	False	False	13	4	NOT_CAND	NOT_CAND
 when	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -25759,8 +25759,8 @@ hu	True	False	False	2	1	NOT_CAND	NOT_CAND
 dat	True	True	True	3	1	CAND	CAND
 i	True	True	True	1	1	CAND	NOT_CAND
 g	True	True	True	1	0	CAND	NOT_CAND
-g	True	True	True	1	0	CAND	CAND
-y	True	True	True	1	0	CAND	CAND
+g	True	True	True	1	0	CAND	NOT_CAND
+y	True	True	True	1	0	CAND	NOT_CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @heyskyblew	False	False	False	11	2	NOT_CAND	NOT_CAND
@@ -25893,7 +25893,7 @@ xd	True	False	False	2	0	NOT_CAND	NOT_CAND
 @billy_davis99	False	False	False	14	3	NOT_CAND	NOT_CAND
 @luke_fellows	False	False	False	13	4	NOT_CAND	NOT_CAND
 tottenham	True	False	False	9	3	NOT_CAND	NOT_CAND
-ave	True	True	True	3	2	NOT_CAND	CAND
+ave	True	True	True	3	2	NOT_CAND	NOT_CAND
 signed	True	False	True	6	2	NOT_CAND	NOT_CAND
 pochettino	True	False	False	10	4	NOT_CAND	NOT_CAND
 as	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -26083,7 +26083,7 @@ play	True	False	True	4	1	NOT_CAND	NOT_CAND
 gta	True	False	False	3	1	NOT_CAND	NOT_CAND
 5	True	False	False	1	0	NOT_CAND	NOT_CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
-xbox	True	True	False	4	1	NOT_CAND	CAND
+xbox	True	True	False	4	1	NOT_CAND	NOT_CAND
 live	True	False	True	4	2	NOT_CAND	NOT_CAND
 ?	False	False	False	1	0	NOT_CAND	NOT_CAND
 
@@ -26256,7 +26256,7 @@ cover	True	False	True	5	2	NOT_CAND	NOT_CAND
 hp	True	False	True	2	0	NOT_CAND	NOT_CAND
 office	True	False	True	6	3	NOT_CAND	NOT_CAND
 jet	True	False	True	3	1	NOT_CAND	NOT_CAND
-pro	True	True	True	3	1	NOT_CAND	CAND
+pro	True	True	True	3	1	NOT_CAND	NOT_CAND
 8600	True	False	False	4	0	NOT_CAND	NOT_CAND
 19.5	False	False	False	4	0	NOT_CAND	NOT_CAND
 w	True	True	True	1	0	NOT_CAND	CAND
@@ -26264,7 +26264,7 @@ w	True	True	True	1	0	NOT_CAND	CAND
 x	True	False	True	1	0	NOT_CAND	NOT_CAND
 16.5	False	False	False	4	0	NOT_CAND	NOT_CAND
 "	False	False	False	1	0	NOT_CAND	NOT_CAND
-d	True	True	True	1	0	NOT_CAND	CAND
+d	True	True	True	1	0	NOT_CAND	NOT_CAND
 x	True	False	True	1	0	NOT_CAND	NOT_CAND
 12	True	False	False	2	0	NOT_CAND	NOT_CAND
 "	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -26553,7 +26553,7 @@ crying	True	False	True	6	1	NOT_CAND	NOT_CAND
 already	True	False	True	7	3	NOT_CAND	NOT_CAND
 omg	True	True	False	3	1	CAND	CAND
 
-gottta	True	True	False	6	2	CAND	CAND
+gottta	True	True	False	6	2	CAND	NOT_CAND
 blunt	True	False	True	5	1	NOT_CAND	NOT_CAND
 waitin	True	True	False	6	3	CAND	CAND
 on	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -26843,7 +26843,7 @@ even	True	False	True	4	2	NOT_CAND	NOT_CAND
 know	True	False	True	4	1	NOT_CAND	NOT_CAND
 where	True	False	True	5	2	NOT_CAND	NOT_CAND
 my	True	False	True	2	0	NOT_CAND	NOT_CAND
-xbox	True	True	False	4	1	NOT_CAND	CAND
+xbox	True	True	False	4	1	NOT_CAND	NOT_CAND
 is	True	False	True	2	1	NOT_CAND	NOT_CAND
 
 im	True	True	False	2	1	CAND	CAND
@@ -27306,7 +27306,7 @@ of	True	False	True	2	1	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
 drink	True	False	True	5	1	NOT_CAND	NOT_CAND
 i	True	True	True	1	1	NOT_CAND	NOT_CAND
-order	True	True	True	5	2	NOT_CAND	CAND
+order	True	True	True	5	2	NOT_CAND	NOT_CAND
 lol	True	True	False	3	1	CAND	CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
@@ -27452,7 +27452,7 @@ euro	True	False	True	4	3	NOT_CAND	NOT_CAND
 diten	True	False	False	5	2	NOT_CAND	NOT_CAND
 thuj	True	False	False	4	1	NOT_CAND	NOT_CAND
 jo	True	False	True	2	1	NOT_CAND	NOT_CAND
-ma	True	True	True	2	1	NOT_CAND	CAND
+ma	True	True	True	2	1	NOT_CAND	NOT_CAND
 pak	True	False	False	3	1	NOT_CAND	NOT_CAND
 
 ang	True	True	False	3	1	NOT_CAND	NOT_CAND
@@ -27731,7 +27731,7 @@ its	True	True	True	3	1	CAND	NOT_CAND
 god	True	False	True	3	1	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 lets	True	False	True	4	1	NOT_CAND	NOT_CAND
-tak	True	True	False	3	1	CAND	CAND
+tak	True	True	False	3	1	CAND	NOT_CAND
 dat	True	True	True	3	1	CAND	CAND
 
 come	True	False	True	4	2	NOT_CAND	NOT_CAND
@@ -27818,7 +27818,7 @@ that	True	False	True	4	1	NOT_CAND	NOT_CAND
 look	True	False	True	4	2	NOT_CAND	NOT_CAND
 like	True	False	True	4	2	NOT_CAND	NOT_CAND
 homeless	True	False	True	8	3	NOT_CAND	NOT_CAND
-meth	True	False	False	4	1	CAND	NOT_CAND
+meth	True	False	False	4	1	CAND	CAND
 addicts	True	False	True	7	2	NOT_CAND	NOT_CAND
 but	True	False	True	3	1	NOT_CAND	NOT_CAND
 still	True	False	True	5	1	NOT_CAND	NOT_CAND
@@ -27830,7 +27830,7 @@ arent	True	True	False	5	2	CAND	CAND
 actually	True	False	True	8	3	NOT_CAND	NOT_CAND
 addicted	True	False	True	8	3	NOT_CAND	NOT_CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
-meth	True	False	False	4	1	CAND	NOT_CAND
+meth	True	False	False	4	1	CAND	CAND
 
 @marimaricoelho	False	False	False	15	7	NOT_CAND	NOT_CAND
 ahh	True	False	False	3	1	NOT_CAND	NOT_CAND
@@ -28094,7 +28094,7 @@ now	True	False	True	3	1	NOT_CAND	NOT_CAND
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
 @_ahnjh	False	False	False	7	1	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
-siang	True	True	False	5	2	NOT_CAND	CAND
+siang	True	True	False	5	2	NOT_CAND	NOT_CAND
 :)	False	False	False	2	0	NOT_CAND	NOT_CAND
 #openfolllow	False	False	False	12	4	NOT_CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
@@ -28183,7 +28183,7 @@ hahaha	True	False	False	6	3	NOT_CAND	NOT_CAND
 
 infinity	True	False	True	8	3	NOT_CAND	NOT_CAND
 blade	True	False	True	5	2	NOT_CAND	NOT_CAND
-ii	True	True	True	2	2	NOT_CAND	CAND
+ii	True	True	True	2	2	NOT_CAND	NOT_CAND
 by	True	False	True	2	0	NOT_CAND	NOT_CAND
 chair	True	False	True	5	2	NOT_CAND	NOT_CAND
 entertainment	True	False	True	13	5	NOT_CAND	NOT_CAND
@@ -28666,7 +28666,7 @@ they	True	False	True	4	1	NOT_CAND	NOT_CAND
 eat	True	False	True	3	2	NOT_CAND	NOT_CAND
 all	True	False	True	3	1	NOT_CAND	NOT_CAND
 that	True	False	True	4	1	NOT_CAND	NOT_CAND
-mcdonalds	True	True	False	9	2	NOT_CAND	CAND
+mcdonalds	True	True	False	9	2	NOT_CAND	NOT_CAND
 
 @robbieeee_woo	False	False	False	14	8	NOT_CAND	NOT_CAND
 im	True	True	False	2	1	CAND	CAND
@@ -28873,14 +28873,14 @@ goin	True	True	False	4	2	CAND	CAND
 angola	True	False	False	6	3	NOT_CAND	NOT_CAND
 ?	False	False	False	1	0	NOT_CAND	NOT_CAND
 
-highschool	True	True	False	10	3	CAND	NOT_CAND
+highschool	True	True	False	10	3	CAND	CAND
 is	True	False	True	2	1	NOT_CAND	NOT_CAND
 over	True	False	True	4	2	NOT_CAND	NOT_CAND
 and	True	False	True	3	1	NOT_CAND	NOT_CAND
 so	True	False	True	2	1	NOT_CAND	NOT_CAND
 are	True	False	True	3	2	NOT_CAND	NOT_CAND
 the	True	False	True	3	1	NOT_CAND	NOT_CAND
-highschool	True	True	False	10	3	CAND	NOT_CAND
+highschool	True	True	False	10	3	CAND	CAND
 games	True	False	True	5	2	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 
@@ -29258,7 +29258,7 @@ hemmings	True	False	False	8	2	NOT_CAND	NOT_CAND
 vs	True	False	True	2	0	NOT_CAND	NOT_CAND
 justin	True	False	False	6	2	NOT_CAND	NOT_CAND
 bieber	True	False	False	6	3	NOT_CAND	NOT_CAND
-rt	True	True	True	2	0	CAND	CAND
+rt	True	True	True	2	0	CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
 luke	True	False	False	4	2	NOT_CAND	NOT_CAND
 fav	True	True	False	3	1	CAND	CAND
@@ -29324,7 +29324,7 @@ moi	True	False	True	3	2	NOT_CAND	NOT_CAND
 
 looking	True	False	True	7	3	NOT_CAND	NOT_CAND
 for	True	False	True	3	1	NOT_CAND	NOT_CAND
-openning	True	True	False	8	3	CAND	CAND
+openning	True	True	False	8	3	CAND	NOT_CAND
 hours	True	False	True	5	2	NOT_CAND	NOT_CAND
 about	True	False	True	5	3	NOT_CAND	NOT_CAND
 ca	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -29506,7 +29506,7 @@ u	True	True	True	1	1	CAND	CAND
 abt	True	True	False	3	1	CAND	CAND
 ur	True	True	False	2	1	CAND	CAND
 first	True	False	True	5	1	NOT_CAND	NOT_CAND
-oversea	True	True	True	7	4	NOT_CAND	CAND
+oversea	True	True	True	7	4	NOT_CAND	NOT_CAND
 trip	True	False	True	4	1	NOT_CAND	NOT_CAND
 i	True	True	True	1	1	NOT_CAND	NOT_CAND
 know	True	False	True	4	1	NOT_CAND	NOT_CAND
@@ -29641,7 +29641,7 @@ http://t.co/1raypx4tzs	False	False	False	22	2	NOT_CAND	NOT_CAND
 
 @anahtema	False	False	False	9	4	NOT_CAND	NOT_CAND
 @ftqtjh	False	False	False	7	0	NOT_CAND	NOT_CAND
-tak	True	True	False	3	1	NOT_CAND	CAND
+tak	True	True	False	3	1	NOT_CAND	NOT_CAND
 ja	True	False	True	2	1	NOT_CAND	NOT_CAND
 bede	True	False	False	4	2	NOT_CAND	NOT_CAND
 cleo	True	False	False	4	2	NOT_CAND	NOT_CAND
@@ -29760,7 +29760,7 @@ this	True	False	True	4	1	NOT_CAND	NOT_CAND
 life	True	False	True	4	2	NOT_CAND	NOT_CAND
 of	True	False	True	2	1	NOT_CAND	NOT_CAND
 my	True	False	True	2	0	NOT_CAND	NOT_CAND
-mines	True	True	True	5	2	NOT_CAND	CAND
+mines	True	True	True	5	2	NOT_CAND	NOT_CAND
 again	True	False	True	5	3	NOT_CAND	NOT_CAND
 !	False	False	False	1	0	NOT_CAND	NOT_CAND
 
@@ -29855,7 +29855,7 @@ bout	True	True	True	4	2	CAND	CAND
 it	True	False	True	2	1	NOT_CAND	NOT_CAND
 
 get	True	False	True	3	1	NOT_CAND	NOT_CAND
-naija	True	True	False	5	3	NOT_CAND	CAND
+naija	True	True	False	5	3	NOT_CAND	NOT_CAND
 news	True	False	True	4	1	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 sasha	True	False	False	5	2	NOT_CAND	NOT_CAND
@@ -29911,7 +29911,7 @@ erm	True	False	False	3	1	NOT_CAND	NOT_CAND
 ..	False	False	False	2	0	NOT_CAND	NOT_CAND
 no	True	True	True	2	1	NOT_CAND	NOT_CAND
 doubt	True	False	True	5	2	NOT_CAND	NOT_CAND
-bro	True	True	True	3	1	CAND	NOT_CAND
+bro	True	True	True	3	1	CAND	CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 sorry	True	False	True	5	1	NOT_CAND	NOT_CAND
 to	True	False	True	2	1	NOT_CAND	NOT_CAND
@@ -30082,7 +30082,7 @@ the	True	False	True	3	1	NOT_CAND	NOT_CAND
 beatles	True	False	False	7	3	NOT_CAND	NOT_CAND
 :	False	False	False	1	0	NOT_CAND	NOT_CAND
 whole	True	False	True	5	2	NOT_CAND	NOT_CAND
-lotta	True	True	False	5	2	NOT_CAND	CAND
+lotta	True	True	False	5	2	NOT_CAND	NOT_CAND
 helter	True	False	False	6	2	NOT_CAND	NOT_CAND
 skelter	True	False	False	7	2	NOT_CAND	NOT_CAND
 http://t.co/sxomgb7o3n	False	False	False	22	3	NOT_CAND	NOT_CAND
@@ -30132,7 +30132,7 @@ about	True	False	True	5	3	NOT_CAND	NOT_CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 ,	False	False	False	1	0	NOT_CAND	NOT_CAND
 just	True	False	True	4	1	NOT_CAND	NOT_CAND
-incase	True	False	False	6	3	CAND	NOT_CAND
+incase	True	False	False	6	3	CAND	CAND
 i	True	True	True	1	1	NOT_CAND	NOT_CAND
 forget	True	False	True	6	2	NOT_CAND	NOT_CAND
 '	False	False	False	1	0	NOT_CAND	NOT_CAND
@@ -30179,7 +30179,7 @@ to	True	False	True	2	1	NOT_CAND	NOT_CAND
 young	True	False	True	5	2	NOT_CAND	NOT_CAND
 blood	True	False	True	5	2	NOT_CAND	NOT_CAND
 chronicles	True	False	True	10	3	NOT_CAND	NOT_CAND
-fuc	True	True	False	3	1	CAND	NOT_CAND
+fuc	True	True	False	3	1	CAND	CAND
 k	True	True	True	1	0	CAND	NOT_CAND
 
 rt	True	True	True	2	0	NOT_CAND	NOT_CAND
@@ -30197,7 +30197,7 @@ need	True	False	True	4	2	NOT_CAND	NOT_CAND
 a	True	True	True	1	1	NOT_CAND	NOT_CAND
 job	True	False	True	3	1	NOT_CAND	NOT_CAND
 done	True	False	True	4	2	NOT_CAND	NOT_CAND
-asap	True	True	True	4	2	CAND	CAND
+asap	True	True	True	4	2	CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 hit	True	False	True	3	1	NOT_CAND	NOT_CAND
 my	True	False	True	2	0	NOT_CAND	NOT_CAND
@@ -30206,10 +30206,10 @@ dm	True	True	True	2	0	NOT_CAND	CAND
 "	False	False	False	1	0	NOT_CAND	NOT_CAND
 zamn	True	False	False	4	1	NOT_CAND	NOT_CAND
 u	True	True	True	1	1	CAND	CAND
-trynna	True	False	False	6	1	CAND	NOT_CAND
+trynna	True	False	False	6	1	CAND	CAND
 get	True	False	True	3	1	NOT_CAND	NOT_CAND
 niggas	True	True	False	6	2	CAND	CAND
-outta	True	True	True	5	3	NOT_CAND	CAND
+outta	True	True	True	5	3	NOT_CAND	NOT_CAND
 here	True	False	True	4	2	NOT_CAND	NOT_CAND
 .	False	False	False	1	0	NOT_CAND	NOT_CAND
 
@@ -30279,7 +30279,7 @@ skrapz	True	False	False	6	1	NOT_CAND	NOT_CAND
 what	True	False	True	4	1	NOT_CAND	NOT_CAND
 you	True	False	True	3	2	NOT_CAND	NOT_CAND
 want	True	False	True	4	1	NOT_CAND	NOT_CAND
-ft	True	True	True	2	0	NOT_CAND	CAND
+ft	True	True	True	2	0	NOT_CAND	NOT_CAND
 s	True	True	True	1	0	NOT_CAND	NOT_CAND
 dot	True	False	True	3	1	NOT_CAND	NOT_CAND
 b	True	True	True	1	0	CAND	NOT_CAND
@@ -31297,7 +31297,7 @@ perfect	True	False	True	7	2	NOT_CAND	NOT_CAND
 tho	True	True	True	3	1	CAND	CAND
 me	True	False	True	2	1	NOT_CAND	NOT_CAND
 bae	True	True	False	3	2	NOT_CAND	NOT_CAND
-goo	True	True	True	3	2	NOT_CAND	CAND
+goo	True	True	True	3	2	NOT_CAND	NOT_CAND
 from	True	False	True	4	1	NOT_CAND	NOT_CAND
 lovey	True	True	True	5	2	NOT_CAND	NOT_CAND
 dovey	True	False	False	5	2	NOT_CAND	NOT_CAND
