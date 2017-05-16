@@ -12,11 +12,11 @@ from objectives import crf_loss, crf_accuracy
 MAX_CHAR_LENGTH = 25
 MAX_WORD_LENGTH = 41
 
-NUM_EPOCH = 50
+NUM_EPOCH = 30
 
 char_embed_size = 50
-char_hidden_size = 256
-word_hidden_size = 512
+char_hidden_size = 512
+word_hidden_size = 256
 
 
 def create_char_index():
@@ -142,9 +142,9 @@ def evaluate(pred, label):
     precision = correct * 100.0 / found
     recall = correct * 100.0 / total
     f1 = 2 * precision * recall / (precision + recall)
-    print('precision: ' + `precision`)
-    print('recall: ' + `recall`)
-    print('f1: ' + `f1`)
+    print('  precision: ' + `precision`)
+    print('  recall: ' + `recall`)
+    print('  f1: ' + `f1`)
             
 def main():
 
@@ -194,8 +194,8 @@ def main():
     word_concat = lasagne.layers.ConcatLayer([char_concat, word_in], axis = 2)
     word_mask = lasagne.layers.InputLayer(shape=(None, MAX_WORD_LENGTH), input_var = mask_var)
 
-    word_forward = lasagne.layers.LSTMLayer(word_concat, word_hidden_size, mask_input = word_mask, nonlinearity = lasagne.nonlinearities.tanh)
-    word_backward = lasagne.layers.LSTMLayer(word_concat, word_hidden_size, mask_input = word_mask, nonlinearity = lasagne.nonlinearities.tanh, backwards=True)
+    word_forward = lasagne.layers.LSTMLayer(word_concat, word_hidden_size, mask_input = word_mask, nonlinearity=lasagne.nonlinearities.tanh)
+    word_backward = lasagne.layers.LSTMLayer(word_concat, word_hidden_size, mask_input = word_mask, nonlinearity=lasagne.nonlinearities.tanh, backwards=True)
     word_c = lasagne.layers.ConcatLayer([word_forward, word_backward], axis = 2)
 
     crf = CRFLayer(word_c, 2, mask_input = word_mask)
@@ -231,7 +231,7 @@ def main():
         start_time = time.time()
         preds = []
 
-        for batch in iterate_minibatches(train_char_X, train_char_mask, train_word_X, train_word_mask, train_Y):
+        for batch in iterate_minibatches(train_char_X, train_char_mask, train_word_X, train_word_mask, train_Y, shuffle=True):
 
             c_input, c_mask, w_input, w_mask, y = batch
             batchloss, corr, pred, num = train(c_input, c_mask, w_input, w_mask, y)
@@ -248,25 +248,31 @@ def main():
         prediction = np.concatenate(preds)
         evaluate(prediction, train_Y)
 
-        if epoch % 5 == 0:
+        valid_corr = 0
+        valid_total = 0
+        valid_preds = []
 
-            valid_corr = 0
-            valid_total = 0
-            valid_preds = []
+        for batch in iterate_minibatches(valid_char_X, valid_char_mask, valid_word_X, valid_word_mask, valid_Y):
 
-            for batch in iterate_minibatches(valid_char_X, valid_char_mask, valid_word_X, valid_word_mask, valid_Y):
+            c_input, c_mask, w_input, w_mask, y = batch
+            loss, corr, pred, num = valid_eval(c_input, c_mask, w_input, w_mask, y)
+            valid_corr += corr
+            valid_total += num
+            valid_preds.append(pred)
+        print("-------------")
+        print("  valid accuracy:\t\t{:.6f}".format(valid_corr * 100.0 / valid_total))
 
-                c_input, c_mask, w_input, w_mask, y = batch
-                loss, corr, pred, num = valid_eval(c_input, c_mask, w_input, w_mask, y)
-                valid_corr += corr
-                valid_total += num
-                valid_preds.append(pred)
-            print("-------------")
-            print("  valid accuracy:\t\t{:.6f}".format(valid_corr * 100.0 / valid_total))
-
-            valid_prediction = np.concatenate(valid_preds)
-            evaluate(valid_prediction, valid_Y)
-            print("-------------")
+        valid_prediction = np.concatenate(valid_preds)
+        print valid_prediction.shape
+        evaluate(valid_prediction, valid_Y)
+        print("-------------")
+        output = open('pred' +`epoch`, 'w')
+        for i in range(valid_prediction.shape[0]):
+            for j in range(valid_prediction.shape[1]):
+                if valid_word_mask[i][j] == 1:
+                    output.write(`valid_prediction[i][j]` + ' ')
+            output.write('\n')
+        output.close()
 
 if __name__ == '__main__':
     main()
